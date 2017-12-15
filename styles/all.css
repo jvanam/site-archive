@@ -15,6 +15,9 @@ li {
   font-family: 'Roboto-Bold.ttf';
 }
 
+#indexlinks {
+  padding-top: 5%;
+}
 
 /*            HEADER            */
 .header_text {
@@ -49,21 +52,21 @@ li {
 }
 
 
-#header {
+.header {
  top: 0;
  width: 100%;
 }
 
-#nav {
+.nav {
   float: left;
   width: 100%;
 }
 
-#component1_nav {
+.component1_nav {
 margin-right: 3%;
 }
 
-#component2_nav {
+.component2_nav {
 
 }
 
@@ -72,14 +75,9 @@ margin-right: 3%;
 color: #b3c2e9;
 }
 
-#name {
-  float: left;
-  font-family: 'Roboto-Bold.ttf';
-  margin-bottom: 1%;
-}
 
 /*            footer            */
-#footer {
+.footer {
   margin-top: 20%;
   width: 100%;
   font-family: 'RobotoMono-Light.ttf';
@@ -98,7 +96,13 @@ color: #b3c2e9;
 }
 
 .link {
-  font-family: 'RobotoMono-MediumItalic';
+  font-family: 'RobotoMono-MediumItalic.ttf';
+  text-decoration: none;
+  color: black;
+}
+
+.descriplink {
+  font-family: 'Roboto-Light.ttf';
   text-decoration: none;
   color: black;
 }
@@ -107,6 +111,12 @@ color: #b3c2e9;
   margin-top: 5%;
 }
 
+.description {
+  line-height: 150%;
+  width: 60%;
+  font-family: 'Roboto-Medium.ttf';
+
+}
 
 /*            images            */
 .sculpturephotofirst {
@@ -127,7 +137,7 @@ color: #b3c2e9;
 }
 
 /*            art            */
-.sculpture {
+.contentunit {
   float: none;
   padding-top: 1%;
   padding-bottom: 1%;
