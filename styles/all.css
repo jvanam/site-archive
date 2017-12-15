@@ -97,21 +97,41 @@ color: #b3c2e9;
   line-height: 300%;
 }
 
-#contact {
+.link {
   font-family: 'RobotoMono-MediumItalic';
+  text-decoration: none;
+  color: black;
 }
 
 #resume {
-  font-family: 'RobotoMono-MediumItalic';
   margin-top: 5%;
 }
 
+
 /*            images            */
+.sculpturephotofirst {
+  width: 20%;
+}
+
+.sculpturephoto {
+  float: left;
+  width: 20%;
+}
 
 
-/*            music            */
+/*            essays            */
+
+.essay {
+  padding-bottom: 1%;
+  padding-top: 1%
+}
 
 /*            art            */
+.sculpture {
+  float: none;
+  padding-top: 1%;
+  padding-bottom: 1%;
+}
 
 /*            info            */
 #info_title {
