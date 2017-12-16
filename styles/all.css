@@ -75,6 +75,9 @@ margin-right: 3%;
 color: #b3c2e9;
 }
 
+.link:hover {
+  text-decoration: underline;
+}
 
 /*            footer            */
 .footer {
@@ -85,7 +88,7 @@ color: #b3c2e9;
 }
 
 /*            text            */
-.titular_text {
+.pagetitle {
   font-family: 'RobotoMono-Medium.ttf';
 }
 
@@ -96,6 +99,12 @@ color: #b3c2e9;
 }
 
 .link {
+  font-family: 'RobotoMono-MediumItalic.ttf';
+  text-decoration: none;
+  color: black;
+}
+
+.artitle {
   font-family: 'RobotoMono-MediumItalic.ttf';
   text-decoration: none;
   color: black;
@@ -128,6 +137,9 @@ color: #b3c2e9;
   width: 20%;
 }
 
+.robopics {
+  height: 20%;
+}
 
 /*            essays            */
 
