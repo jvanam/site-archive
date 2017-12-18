@@ -33,29 +33,10 @@
 <p class='hiddentext'>jv345@cornell.edu</p>
 </div> <!--indexlinks-->
 <div class='video'>
-<video controls id="my-vid">
+<video autoplay loop controls>
   <source src="video/hotlegsthemovie.mp4" type="video/mp4">
 </video>
 </div> <!--video-->
-var video = document.getElementById("my-vid");
-var playing = false;
-
-//The timeout time may need to be higher depending on the runtime of the mdl init...
-setTimeout(function() {
-     video.play();
-    }, 500); 
-
-// I got some issues with long videos (20s+),there i had to reset the 
-// current play time about 3 seconds ( (video.duration * 1000)-3000) ) before the end.
-video.addEventListener("play", function() {
-      if(!playing) {
-        setInterval(function() {
-          video.currentTime = 0;
-        }, (video.duration * 1000)-20);  
-        playing = true;
-      }
-    });
-}
 <div>
 	<p class='footer'>all media on this site, unless otherwise noted
 	&copy; 2017 Jessica Vanam </p>
