@@ -127,6 +127,14 @@ color: #b3c2e9;
 
 }
 
+.hiddentext {
+ display: none;
+}
+
+#contact:hover + .hiddentext{
+  display: block;
+}
+
 /*            images            */
 .sculpturephotofirst {
   width: 20%;
@@ -137,8 +145,8 @@ color: #b3c2e9;
   width: 20%;
 }
 
-.robopics {
-  height: 20%;
+#portrait {
+  padding-left: 20%;
 }
 
 /*            essays            */
