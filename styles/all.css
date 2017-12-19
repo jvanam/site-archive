@@ -3,6 +3,7 @@
 
 body {
   font-family: 'Roboto-Medium.ttf';
+  
   width: 100%;
 }
 
@@ -133,6 +134,10 @@ color: #b3c2e9;
 
 #contact:hover + .hiddentext{
   display: block;
+}
+
+#contact {
+  width: 30%;
 }
 
 /*            images            */
