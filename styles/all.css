@@ -125,7 +125,7 @@
     margin-top: 0;
   }
   .linktext {
-    font-family: 'Roboto-LightItalic';
+    font-family: 'Roboto-LightItalic.ttf';
     text-decoration: underline;
     color: #b3c2e9;
     margin-top: 3%;
@@ -198,7 +198,7 @@
     /*            WRITING          */
 
   .essay_link {
-    font-family: 'Roboto-LightItalic';
+    font-family: 'Roboto-LightItalic.ttf';
     text-decoration: underline;
     color: #b3c2e9;
     font-size: 2.8vw;
