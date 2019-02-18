@@ -77,25 +77,25 @@
   #index {
     background-color: black;
   }
-  .video {
-    height: 80vh;
-    display: table;
-    margin: 0 auto;
+  #index-video {
+    position: fixed;
+    left: 0;
+    top: 0;
+    min-width: 100%;
+    min-height: 100%;
   }
   #index_logo {
-    font-family: 'Rakkas-Regular.ttf';
-    color: #b3c2e9;
+    position: fixed;
+    font-family: 'SBK-Regular.woff2';
+    color: black;
     font-size: 5em;
-    margin-bottom: 0;
-    margin-right: 0;
-    margin-left: 5%;
-    padding: 0;
-    margin-top: 0;
-    padding-top: 0;
+    margin-left: 60vw;
+    margin-top: 40vh;
     text-decoration: none;
   }
   #index_logo:hover {
     color: #ff0000;
+    text-decoration: line-through;
   }
 
           /*            HOME           */
@@ -359,4 +359,56 @@
 @font-face {
   font-family: 'Rakkas-Regular.ttf';
   src: url('../fonts/Rakkas/Rakkas-Regular.ttf');
+}
+
+/*  SangBleu Kingdom  */
+
+@font-face {
+  font-family: 'SBK-Air.woff2';
+  src: url('../fonts/SangBleu_Kingdom/SBK-Air.woff2');
+}
+
+@font-face {
+  font-family: 'SBK-AirItalic.woff2';
+  src: url('../fonts/SangBleu_Kingdom/SBK-AirItalic.woff2');
+}
+
+@font-face {
+  font-family: 'SBK-Bold.woff2';
+  src: url('../fonts/SangBleu_Kingdom/SBK-Bold.woff2');
+}
+
+@font-face {
+  font-family: 'SBK-BoldItalic.woff2';
+  src: url('../fonts/SangBleu_Kingdom/SBK-BoldItalic.woff2');
+}
+
+@font-face {
+  font-family: 'SBK-Light.woff2';
+  src: url('../fonts/SangBleu_Kingdom/SBK-Light.woff2');
+}
+
+@font-face {
+  font-family: 'SBK-LightItalic.woff2';
+  src: url('../fonts/SangBleu_Kingdom/SBK-LightItalic.woff2');
+}
+
+@font-face {
+  font-family: 'SBK-Medium.woff2';
+  src: url('../fonts/SangBleu_Kingdom/SBK-Medium.woff2');
+}
+
+@font-face {
+  font-family: 'SBK-MediumItalic.woff2';
+  src: url('../fonts/SangBleu_Kingdom/SBK-MediumItalic.woff2');
+}
+
+@font-face {
+  font-family: 'SBK-Regular.woff2';
+  src: url('../fonts/SangBleu_Kingdom/SBK-Regular.woff2');
+}
+
+@font-face {
+  font-family: 'SBK-RegularItalic.woff2';
+  src: url('../fonts/SangBleu_Kingdom/SBK-RegularItalic.woff2');
 }
