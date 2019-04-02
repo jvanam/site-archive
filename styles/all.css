@@ -118,11 +118,19 @@
     max-height: 80vh;
   }
   #home_txt {
-    font-family: 'RobotoMono-Medium.ttf';
+    font-family: 'SIM-Regular.woff2';
     font-size: 2vw;
     margin-left: 10%;
     padding-top: 2%;
     margin-top: 0;
+  }
+  .home_biolinks {
+    color: white;
+    text-decoration: none;
+  }
+  .home_biolinks:hover {
+    color: #ff0000;
+    text-decoration: line-through;
   }
   .linktext {
     font-family: 'Roboto-LightItalic.ttf';
@@ -411,4 +419,21 @@
 @font-face {
   font-family: 'SBK-RegularItalic.woff2';
   src: url('../fonts/SangBleu_Kingdom/SBK-RegularItalic.woff2');
+}
+
+/*  Suisse Intl Mono  */
+
+@font-face {
+  font-family: 'SIM-Bold.woff2';
+  src: url('../fonts/SuisseIntlMono/SIM-Bold.woff2');
+}
+
+@font-face {
+  font-family: 'SIM-Regular.woff2';
+  src: url('../fonts/SuisseIntlMono/SIM-Regular.woff2');
+}
+
+@font-face {
+  font-family: 'SIM-Thin.woff2';
+  src: url('../fonts/SuisseIntlMono/SIM-Thin.woff2');
 }
