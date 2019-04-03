@@ -47,7 +47,7 @@
     }
   nav {
     position: fixed;
-    left: 0;
+    left: 7pt;
     bottom: 0;
     max-width: 30pt;
     background-color: black;
