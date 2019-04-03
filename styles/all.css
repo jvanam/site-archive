@@ -26,22 +26,34 @@
     width: 100%;
     margin-left: 5vw;
   }
-
+  .rectangle {
+    height: 5pt;
+    background-color: #ff0000;
+    margin-top: 30pt;
+    margin-left: 40pt;
+    margin-right: 40pt;
+  }
 
             /*      NAVIGATION     */
 
+  ul {
+    padding: 0pt;
+    margin: 10pt;
+    max-width: 30pt;
+  }
   li {
-    display: inline;
+    display: block;
     list-style-type: none;
     }
   nav {
     position: fixed;
+    left: 0;
     bottom: 0;
-    width: 100vw;
+    max-width: 30pt;
     background-color: black;
   }
   .nav_logo {
-    font-size: 2vw;
+    font-size: 20pt;
     font-family: 'Rakkas-Regular.ttf';
     text-decoration: none;
     color: #b3c2e9;
@@ -51,20 +63,14 @@
   }
   .nav_link {
     font-family: 'RobotoMono-Light.ttf';
-    font-size: 1.3vw;
+    font-size: 12pt;
     color: #b3c2e9;
     text-decoration: none;
-    padding-left: 3vw;
+    padding-bottom: 20pt;
+    writing-mode: vertical-rl;
   }
   .nav_link :hover {
     color: #ff0000;
-  }
-  .nav_text {
-    font-family: 'RobotoMono-Light.ttf';
-    font-size: 1.3vw;
-    color: white;
-    text-decoration: none;
-    padding-left: 3vw;
   }
             /*            INDEX           */
 
@@ -94,26 +100,18 @@
 
           /*            HOME           */
 
-  .rectangle {
-    height: 1vh;
-    background-color: #ff0000;
-    margin-top: 3%;
-    margin-left: 5%;
-    margin-right: 5%;
-  }
   #home_content {
-    max-height: 80vh;
+    display: inline;
   }
   #home_bio {
-    width: 50%;
+    width: 650pt;
     padding-top: 0;
     margin-top: 0;
     float: left;
-    max-height: 80vh;
   }
   #home_txt {
     font-family: 'SIM-Regular.woff2';
-    font-size: 2vw;
+    font-size: 24pt;
     margin-left: 10%;
     padding-top: 2%;
     margin-top: 0;
@@ -131,21 +129,21 @@
     text-decoration: underline;
     color: #b3c2e9;
     margin-top: 3%;
-    font-size: 1.8vw;
+    font-size: 18pt;
     margin-left: 10%;
   }
   .linktext:hover {
     color: #ff0000;
   }
   #home_portrait {
-    float: left;
-    width: 50%;
+    white-space: nowrap;
   }
   #home_img {
-    width: 25vw;
+    width: 250pt;
     height:auto;
-    margin-left: 30%;
-    padding-top: 2.5%;
+    margin-left: 100pt;
+    padding-top: 40pt;
+    display: inline-block;
   }
 
   /*            PROJECT          */
