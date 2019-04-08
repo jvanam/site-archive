@@ -18,6 +18,14 @@
     width: 100%;
     margin-left: 43vw;
   }
+  #page_title_prototyping {
+    font-family: 'SIM-Regular.woff2';
+    font-size: 20pt;
+    color: white;
+    margin-top: 1%;
+    width: 100%;
+    margin-left: 30vw;
+  }
   .page_subtitle {
     font-family: 'RobotoMono-Italic';
     font-size: 1.5vw;
@@ -66,7 +74,7 @@
     font-size: 12pt;
     color: #b3c2e9;
     text-decoration: none;
-    padding-bottom: 20pt;
+    padding-bottom: 14pt;
     writing-mode: vertical-rl;
   }
   .nav_link :hover {
