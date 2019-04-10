@@ -14,7 +14,7 @@
     font-family: 'SIM-Regular.woff2';
     font-size: 20pt;
     color: white;
-    margin-top: 1%;
+    margin-top: 10pt;
     width: 100%;
     margin-left: 43vw;
   }
@@ -22,13 +22,13 @@
     font-family: 'SIM-Regular.woff2';
     font-size: 20pt;
     color: white;
-    margin-top: 1%;
+    margin-top: 10pt;
     width: 100%;
     margin-left: 30vw;
   }
   .page_subtitle {
     font-family: 'RobotoMono-Italic';
-    font-size: 1.5vw;
+    font-size: 17pt;
     color: white;
     margin-top: 1%;
     width: 100%;
@@ -159,7 +159,7 @@
   .project_container {
     flex-direction: row;
     display: inline-flex;
-    padding-bottom: 5%;
+    padding-bottom: 20pt;
     align-items: center;
     flex-shrink: 1;
   }
@@ -173,27 +173,27 @@
   }
   .project_txt {
     color: white;
-    margin-right: 20%;
+    margin-right: 70pt;
     font-family: 'Roboto-Regular.ttf';
     line-height: 200%;
   }
   .project_video {
-    margin-right: 10%;
-    margin-left: 5vw;
-    width: 36vw;
-    height: 22vw;
+    margin-right: 30pt;
+    margin-left: 60pt;
+    width: 390pt;
+    height: 220pt;
   }
   .robopics {
-    margin-left: 5vw;
+    margin-left: 60pt;
   }
   .robopic {
-    width: 18vw;
+    width: 195pt;
   }
   .documentlink {
   font-family: 'Roboto-LightItalic';
   text-decoration: underline;
   color: #b3c2e9;
-  font-size: 1.5vw;
+  font-size: 17pt;
   }
   .documentlink :hover {
   color: #ff0000;
