@@ -32,7 +32,7 @@
     color: white;
     margin-top: 1%;
     width: 100%;
-    margin-left: 5vw;
+    margin-left: 60pt;
   }
   .rectangle {
     height: 5pt;
@@ -232,21 +232,21 @@
   .art_container {
     flex-direction: row;
     display: inline-flex;
-    padding-bottom: 5%;
+    padding-bottom: 25pt;
     align-items: center;
   }
   .art1 {
     order: 1;
-    width: 25vw;
-    padding-left: 5vw;
+    width: 300pt;
+    padding-left: 60pt;
   }
   .art2 {
     order: 2;
-    width: 25vw;
+    width: 300pt;
   }
   .art3 {
     order: 3;
-    width: 25vw;
+    width: 300pt;
   }
 
 
