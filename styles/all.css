@@ -40,8 +40,8 @@
     height: 5pt;
     background-color: #ff0000;
     margin-top: 30pt;
-    margin-left: 40pt;
-    margin-right: 40pt;
+    margin-left: 20pt;
+    margin-right: 20pt;
   }
 
             /*      NAVIGATION     */
@@ -120,24 +120,24 @@
     margin:auto;
   }
   #home_img {
-    width: 200pt;
+    width: 170pt;
     height:auto;
     padding-top: 20pt;
   }
   #home_bio {
     padding-top: 0;
     margin-top: 0;
-    margin-right: 40pt;
-    margin-left: 10pt;
     grid-column: 1;
     grid-row: 2;
+    margin:auto;
   }
   #home_txt {
     font-family: 'SIM-Regular.woff2';
     font-size: 14pt;
-    margin-left: 10%;
-    padding-top: 2%;
-    margin-top: 0;
+    margin: 10pt;
+    line-height: 1.7;
+    margin-left: 40pt;
+    margin-right: 15pt;
   }
   .home_biolinks {
     color: white;
