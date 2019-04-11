@@ -12,29 +12,25 @@
   a {
     text-decoration: none;
   }
+  p {
+    margin: 0px;
+  }
   .page_title {
     font-family: 'SIM-Regular.woff2';
-    font-size: 20pt;
+    font-size: 14pt;
     color: white;
-    margin-top: 10pt;
-    width: 100%;
-    margin-left: 43vw;
-  }
-  #page_title_prototyping {
-    font-family: 'SIM-Regular.woff2';
-    font-size: 20pt;
-    color: white;
-    margin-top: 10pt;
-    width: 100%;
-    margin-left: 30vw;
+    width: 80%;
+    display: block;
+    position: relative;
+    float: none;
+    margin: 10pt auto;
+    text-align: center;
   }
   .page_subtitle {
     font-family: 'RobotoMono-Italic';
-    font-size: 17pt;
+    font-size: 12pt;
     color: white;
-    margin-top: 1%;
-    width: 100%;
-    margin-left: 60pt;
+    margin-left: 35pt;
   }
   .rectangle {
     height: 5pt;
