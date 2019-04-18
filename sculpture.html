@@ -1,0 +1,139 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<link rel="stylesheet" type="text/css" href="styles/all.css" media="all"/>
+		<meta charset="UTF-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1.0">
+		<title>JV</title>
+		<link rel="shortcut icon" type="image/png" href="images/favicon.png"/>
+	</head>
+	<body id='home'>
+		<div class='rectangle'>
+		</div>
+		<p class='page_title'>Sculpture</p>
+		<p class='page_subtitle'>Candles</p>
+		<div class='slideshow_container'>
+
+			<a class="prev" onclick="plusSlides(-1)"><</a>
+
+			<div class="slides">
+				<img class="candle_img" src='images/candles_2.jpg'>
+			</div><!--mySlides fade-->
+
+			<div class="slides">
+				<img class="candle_img" src='images/candles_1.jpg'>
+			</div><!--mySlides fade-->
+
+			<div class="slides">
+				<img class="candle_img" src='images/candles_3.jpg'>
+			</div><!--mySlides fade-->
+
+			<div class="slides">
+				<img class="candle_img" src='images/candles_4.jpg'>
+			</div><!--mySlides fade-->
+
+		  <a class="next" onclick="plusSlides(1)">></a>
+
+		</div><!--slideshow_container-->
+
+
+		<script>
+		var slideIndex = 1;
+		showSlides(slideIndex);
+
+		function plusSlides(n) {
+		  showSlides(slideIndex += n);
+		}
+
+		function currentSlide(n) {
+		  showSlides(slideIndex = n);
+		}
+
+		function showSlides(n) {
+		  var i;
+		  var slides = document.getElementsByClassName("slides");
+		  if (n > slides.length) {slideIndex = 1}
+		  if (n < 1) {slideIndex = slides.length}
+		  for (i = 0; i < slides.length; i++) {
+		      slides[i].style.display = "none";
+		  }
+		  slides[slideIndex-1].style.display = "inline";
+		  dots[slideIndex-1].className += " active";
+		}
+		</script>
+
+<!--
+		<div class='art_container'>
+			<img class='art1' src="images/rose1.jpg"/>
+			<img class='art3' src="images/rose2.jpg"/>
+		</div> art_container-->
+
+<!--
+		<p class='page_subtitle'>Mother's Day</p>
+		<div class='art_container'>
+			<img class='art1' src="images/rose1.jpg"/>
+			<video class='art2' class='video' autoplay loop controls muted>
+		     <source src="video/rose.mp4" type="video/mp4">
+		  </video>
+			<img class='art3' src="images/rose2.jpg"/>
+		</div> art_container-->
+
+<!--
+		<p class='page_subtitle'>Lips and Nose</p>
+		<div class='art_container'>
+			<img class='art1' src="images/biglipsright.jpg"/>
+			<img class='art2' src="images/biglipsfront.jpg"/>
+			<img class='art3' src="images/biglipsleft.jpg"/>
+		</div> art_container-->
+<!--
+		<p class='page_subtitle'>Leg</p>
+		<div class='art_container'>
+			<img class='art1' src="images/legleft.jpg"/>
+			<img class='art2' src="images/legfront.jpg"/>
+			<img class='art3' src="images/legright.jpg"/>
+		</div> art_container-->
+<!--
+		<p class='page_subtitle'>Sleeper</p>
+		<div class='art_container'>
+			<img class='art1' src="images/face1right.jpg"/>
+			<img class='art2' src="images/face1front.jpg"/>
+			<img class='art3' src="images/face1left.jpg"/>
+		</div> <!-art_container-->
+<!--
+		<p class='page_subtitle'>Jack (for a Box)</p>
+		<div class='art_container'>
+			<img class='art1' src="images/jackright.jpg"/>
+			<img class='art2' src="images/jackfront.jpg"/>
+			<img class='art3' src="images/jackleft.jpg"/>
+		</div> <!art_container-->
+<!--
+		<p class='page_subtitle'>Mourning</p>
+		<div class='art_container'>
+			<img class='art1' src="images/face2right.jpg"/>
+			<img class='art2' src="images/face2front.jpg"/>
+			<img class='art3' src="images/face2left.jpg"/>
+		</div> <!art_container-->
+<!--
+		<p class='page_subtitle'>A Good Guy</p>
+		<div class='art_container'>
+			<img class='art1' src="images/face3right.jpg"/>
+			<img class='art2' src="images/face3front.jpg"/>
+			<img class='art3' src="images/face3left.jpg"/>
+		</div> <art_container-->
+<!--
+		<p class='page_subtitle'>Back (for a necklace)</p>
+		<div class='art_container'>
+			<img class='art1' src="images/backnecklace.jpg"/>
+		</div> art_container-->
+
+		<nav>
+			<ul>
+			 <li class='nav_link'><a class='nav_link' href='physicalcomputing.html'>
+			 Physical Computing</a></li>
+			 <li class='nav_link' ><a class='nav_link' href='essays.html'>Essays</a></li>
+			 <li class='nav_link' ><a class='nav_link' href='art.html'>Art</a></li>
+			 <li class='nav_logo'><a class='nav_logo' href='home.html'>JV</a></li>
+			</ul>
+		</nav>
+  </body>
+</html>
