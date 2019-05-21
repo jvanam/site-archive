@@ -241,9 +241,10 @@
     display: table;
   }
 
-  .candle_img {
+  .art_img {
     width: 70vw;
   }
+  
   .slides {
     display: none;
   }
@@ -495,7 +496,7 @@
     display: table;
   }
 
-  .candle_img {
+  .art_img {
     width: 500pt;
   }
   .slides {
@@ -749,7 +750,7 @@
     display: table;
   }
 
-  .candle_img {
+  .art_img {
     width: 500pt;
   }
   .slides {
@@ -1003,7 +1004,7 @@
     display: table;
   }
 
-  .candle_img {
+  .art_img {
     width: 500pt;
   }
   .slides {
@@ -1257,7 +1258,7 @@
     display: table;
   }
 
-  .candle_img {
+  .art_img {
     width: 500pt;
   }
   .slides {
