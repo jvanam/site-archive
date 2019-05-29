@@ -399,10 +399,11 @@
   }
   #home_txt {
     font-family: 'SIM-Regular.woff2';
-    font-size: 24pt;
+    font-size: 18pt;
     margin-left: 10%;
     padding-top: 2%;
     margin-top: 0;
+    line-height: 275%;
   }
   .home_biolinks {
     color: white;
@@ -648,10 +649,11 @@
   }
   #home_txt {
     font-family: 'SIM-Regular.woff2';
-    font-size: 24pt;
+    font-size: 18pt;
     margin-left: 10%;
     padding-top: 2%;
     margin-top: 0;
+    line-height: 275%;
   }
   .home_biolinks {
     color: white;
@@ -897,10 +899,11 @@
   }
   #home_txt {
     font-family: 'SIM-Regular.woff2';
-    font-size: 24pt;
+    font-size: 18pt;
     margin-left: 10%;
     padding-top: 2%;
     margin-top: 0;
+    line-height: 275%;
   }
   .home_biolinks {
     color: white;
@@ -1146,10 +1149,11 @@
   }
   #home_txt {
     font-family: 'SIM-Regular.woff2';
-    font-size: 24pt;
+    font-size: 18pt;
     margin-left: 10%;
     padding-top: 2%;
     margin-top: 0;
+    line-height: 275%;
   }
   .home_biolinks {
     color: white;
