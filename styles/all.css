@@ -244,7 +244,7 @@
   .art_img {
     width: 70vw;
   }
-  
+
   .slides {
     display: none;
   }
@@ -272,22 +272,19 @@
   a {
     text-decoration: none;
   }
+
   .page_title {
     font-family: 'SIM-Regular.woff2';
     font-size: 20pt;
     color: white;
-    margin-top: 10pt;
-    width: 100%;
-    margin-left: 43vw;
+    width: 80%;
+    display: block;
+    position: relative;
+    float: none;
+    margin: 10pt auto;
+    text-align: center;
   }
-  #page_title_prototyping {
-    font-family: 'SIM-Regular.woff2';
-    font-size: 20pt;
-    color: white;
-    margin-top: 10pt;
-    width: 100%;
-    margin-left: 30vw;
-  }
+
   .page_subtitle {
     font-family: 'RobotoMono-Italic';
     font-size: 17pt;
@@ -530,17 +527,12 @@
     font-family: 'SIM-Regular.woff2';
     font-size: 20pt;
     color: white;
-    margin-top: 10pt;
-    width: 100%;
-    margin-left: 43vw;
-  }
-  #page_title_prototyping {
-    font-family: 'SIM-Regular.woff2';
-    font-size: 20pt;
-    color: white;
-    margin-top: 10pt;
-    width: 100%;
-    margin-left: 30vw;
+    width: 80%;
+    display: block;
+    position: relative;
+    float: none;
+    margin: 10pt auto;
+    text-align: center;
   }
   .page_subtitle {
     font-family: 'RobotoMono-Italic';
@@ -784,17 +776,12 @@
     font-family: 'SIM-Regular.woff2';
     font-size: 20pt;
     color: white;
-    margin-top: 10pt;
-    width: 100%;
-    margin-left: 43vw;
-  }
-  #page_title_prototyping {
-    font-family: 'SIM-Regular.woff2';
-    font-size: 20pt;
-    color: white;
-    margin-top: 10pt;
-    width: 100%;
-    margin-left: 30vw;
+    width: 80%;
+    display: block;
+    position: relative;
+    float: none;
+    margin: 10pt auto;
+    text-align: center;
   }
   .page_subtitle {
     font-family: 'RobotoMono-Italic';
@@ -1038,17 +1025,12 @@
     font-family: 'SIM-Regular.woff2';
     font-size: 20pt;
     color: white;
-    margin-top: 10pt;
-    width: 100%;
-    margin-left: 43vw;
-  }
-  #page_title_prototyping {
-    font-family: 'SIM-Regular.woff2';
-    font-size: 20pt;
-    color: white;
-    margin-top: 10pt;
-    width: 100%;
-    margin-left: 30vw;
+    width: 80%;
+    position: relative;
+    float: none;
+    margin: 10pt auto;
+    text-align: center;
+    display: block;
   }
   .page_subtitle {
     font-family: 'RobotoMono-Italic';
