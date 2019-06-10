@@ -941,22 +941,19 @@
     flex-direction: row;
     display: inline-flex;
     padding-bottom: 20pt;
-    align-items: center;
+    align-items: stretch;
+    align-content: stretch;
     flex-shrink: 1;
   }
   .project_content {
     order: 1;
     width: 50vw;
+    height: 100%;
   }
   .project_description {
     order: 2;
     width: 50vw;
-  }
-  .project_txt {
-    color: white;
-    margin-right: 70pt;
-    font-family: 'Roboto-Regular.ttf';
-    line-height: 200%;
+    height: 100%;
   }
   .project_video {
     margin-right: 30pt;
@@ -964,11 +961,9 @@
     width: 390pt;
     height: 220pt;
   }
-  .robopics {
-    margin-left: 60pt;
-  }
   .robopic {
-    width: 195pt;
+    width: 200pt;
+    align-items: center;
   }
   .documentlink {
   font-family: 'Roboto-LightItalic';
@@ -983,7 +978,52 @@
   margin-left: 10%;
   float:left;
   }
+  .collapsible {
+    cursor: pointer;
+    background-color: black;
+    margin-left: 60pt;
+    margin-right: 60pt;
+    width: 100%;
+    border: none;
+    text-align: left;
+    outline: none;
+    font-family: 'Roboto-LightItalic.ttf';
+    text-decoration: underline;
+    color: #b3c2e9;
+    font-size: 30pt;
+  }
+  .project_txt {
+    color: white;
+    font-size: 13pt;
+    line-height: 200%;
+  }
+  .active, .collapsible:hover {
+    color: #ff0000;
+    text-decoration: line-through;
+  }
 
+  .content {
+    padding: 0 18px;
+    margin-left: 60pt;
+    margin-right: 0pt;
+    max-height: 0;
+    overflow: hidden;
+    transition: max-height 0.2s ease-out;
+    margin-bottom: 30pt;
+  }
+
+  .project_link {
+    font-family: 'Roboto-LightItalic.ttf';
+    text-decoration: underline;
+    color: #b3c2e9;
+    font-size: 30pt;
+    margin-left: 60pt;
+  }
+
+  .active, .project_link:hover {
+    color: #ff0000;
+    text-decoration: line-through;
+  }
     /*            ESSAYS          */
 
     /*            SCULPTURE         */
@@ -996,6 +1036,9 @@
 
   .art_img {
     width: 500pt;
+  }
+  .art_img2 {
+    width: 425pt;
   }
   .slides {
     display: none;
