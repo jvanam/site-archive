@@ -1,0 +1,102 @@
+/*            MAIN            */
+
+body {
+  width: 100vw;
+  font-family: 'RobotoMono-Regular.ttf';
+}
+
+p {
+    display: inline-block;
+    margin-block-start: 0em;
+    margin-block-end: 0em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+}
+#lodge-header {
+  font-family: 'CloisterBlack.ttf';
+  font-size: 3em;
+  grid-row: 1;
+  grid-column: 1;
+  padding-left: 5%;
+}
+#grid-container {
+  display: inline-grid;
+  grid-template-columns: 50vw 50vw;
+}
+
+/*            INDEX            */
+
+#background-body {
+  background-color: lightpink;
+}
+#index-container {
+  text-align: center;
+  padding-top: 30vh;
+}
+#logo {
+  font-family: 'CloisterBlack.ttf';
+  color: darkgreen;
+  font-size: 10vw;
+  text-decoration: none;
+}
+#logo:hover {
+  text-decoration: underline;
+  color: lightgreen;
+}
+
+/*      NAVIGATION     */
+
+li {
+display: inline;
+list-style-type: none;
+}
+nav {
+position: fixed;
+bottom: 0;
+width: 100vw;
+}
+
+
+/*            HOME            */
+
+#home-text-container {
+  grid-column: 1;
+  grid-row: 2;
+  padding: 5%;
+}
+#home-text {
+  line-height: 150%;
+  font-family: 'RobotoMono-Light.ttf'
+}
+#home-photo-container {
+  grid-column: 2;
+  grid-row: 2;
+  padding: 2%
+}
+#home-photo {
+ width: 46vw;
+ height: inherit;
+}
+
+/*            FONTS            */
+
+@font-face {
+  font-family: 'CloisterBlack.ttf';
+  src: url('../fonts/CloisterBlack.ttf');
+}
+@font-face {
+  font-family: 'Roboto-Medium.ttf';
+  src: url('../fonts/Roboto/Roboto-Medium.ttf');
+}
+@font-face {
+  font-family: 'RobotoMono-Regular.ttf';
+  src: url('../fonts/Roboto_Mono/RobotoMono-Regular.ttf');
+}
+@font-face {
+  font-family: 'Roboto-Light.ttf';
+  src: url('../fonts/Roboto/Roboto-Light.ttf');
+}
+@font-face {
+  font-family: 'RobotoMono-Light.ttf';
+  src: url('../fonts/Roboto_Mono/RobotoMono-Light.ttf');
+}
