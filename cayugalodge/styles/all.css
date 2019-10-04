@@ -127,17 +127,17 @@
   }
   .header {
     display: inline-block;
-    margin-top: 30px;
+    margin-top: 15px;
   }
   .homelink {
     font-family: 'cloisterblack';
     font-size: 24pt;
   }
   .slideshow {
-    width: 70vw;
+    width: 90vw;
     height: auto;
     position: absolute;
-    top: 170px;
+    top: 20vh;
     left: 0;
     right: 0;
     margin: auto;
@@ -151,7 +151,7 @@
     font-size: 12pt;
     cursor: default;
     display: inline-block;
-    margin-top: 50vh;
+    margin-top: 40vh;
   }
   .navblock a{
     cursor: pointer;
