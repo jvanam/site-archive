@@ -1,0 +1,186 @@
+@media only screen and (min-width: 768px) {
+  #indexBody {
+    background-image: url('../media/indexbackground-resized.png');
+    background-size: cover;
+    background-repeat: no-repeat;
+    height:100vh;
+    width: 100vw;
+    overflow: hidden;
+  }
+  #aboutBody {
+    background-image: url('../media/aboutbackground.png');
+    height:100vh;
+    width: 100vw;
+    overflow: hidden;
+  }
+  a {
+    text-decoration: none;
+    color: #542300;
+    margin: 0px;
+  }
+  a :hover {
+    text-decoration: underline;
+  }
+  p {
+    color: #542300;
+    font-family: 'myriadproregular';
+    font-size: 14pt;
+    margin: 0px;
+  }
+  .header {
+    position: absolute;
+    top: 20px;
+    left: 20px;
+  }
+  .homelink {
+    font-family: 'cloisterblack';
+    font-size: 24pt;
+  }
+  .slideshow {
+    width: 50vw;
+    height: auto;
+    position: absolute;
+    top: 100px;
+    left: 0;
+    right: 0;
+    margin: auto;
+  }
+  @-webkit-keyframes hoverGlow {
+    from { -webkit-box-shadow: 0 0 9px #333; }
+    50% { -webkit-box-shadow: 0 0 18px #91bd09; }
+    to { -webkit-box-shadow: 0 0 9px #333; }
+  }
+
+  .navblock {
+    color: #542300;
+    font-family: 'myriadproregular';
+    font-size: 12pt;
+    margin: 0px;
+    position: absolute;
+    bottom: 20px;
+    right: 20px;
+    cursor: default;
+  }
+  .navblock a{
+    cursor: pointer;
+  }
+  .dashes {
+    letter-spacing: -2px;
+  }
+  #currentpage {
+    text-decoration: line-through;
+    font-style: italic;
+  }
+  #abouttextblock {
+    position: absolute;
+    left: 0vw;
+    right: 0vw;
+    margin-left: 20vw;
+    margin-right: 25vw;
+    top: 35px;
+  }
+  @font-face {
+    font-family: 'andalemono';
+    src: url('../fonts/AndaleMono.ttf');
+  }
+  @font-face {
+    font-family: 'cloisterblack';
+    src: url('../fonts/CloisterBlack.ttf');
+  }
+  @font-face {
+    font-family: 'myriadproregular';
+    src: url('../fonts/MYRIADPRO-REGULAR.woff');
+  }
+}
+
+@media only screen and (max-width: 768px) {
+  #indexBody {
+    background-image: url('../media/indexbackground-resized.png');
+    background-size: cover;
+    background-repeat: no-repeat;
+    height:100vh;
+    width: 100vw;
+    overflow: hidden;
+  }
+  #aboutBody {
+    background-image: url('../media/aboutbackground.png');
+    height:100vh;
+    width: 100vw;
+    overflow: hidden;
+  }
+  a {
+    text-decoration: none;
+    color: #542300;
+    margin: 0px;
+  }
+  a :hover {
+    text-decoration: underline;
+  }
+  p {
+    color: #542300;
+    font-family: 'myriadproregular';
+    font-size: 14pt;
+    margin: 0px;
+  }
+  .header-wrapper {
+    text-align: center;
+  }
+  .header {
+    display: inline-block;
+    margin-top: 30px;
+  }
+  .homelink {
+    font-family: 'cloisterblack';
+    font-size: 24pt;
+  }
+  .slideshow {
+    width: 70vw;
+    height: auto;
+    position: absolute;
+    top: 170px;
+    left: 0;
+    right: 0;
+    margin: auto;
+  }
+  .navblock-wrapper {
+     text-align: center;
+  }
+  .navblock {
+    color: #542300;
+    font-family: 'myriadproregular';
+    font-size: 12pt;
+    cursor: default;
+    display: inline-block;
+    margin-top: 50vh;
+  }
+  .navblock a{
+    cursor: pointer;
+  }
+  .dashes {
+    letter-spacing: -2px;
+  }
+  #currentpage {
+    text-decoration: line-through;
+    font-style: italic;
+  }
+  #abouttextblock {
+    position: absolute;
+    left: 0vw;
+    right: 0vw;
+    margin-left: 20vw;
+    margin-right: 25vw;
+    top: 35px;
+  }
+  @font-face {
+    font-family: 'andalemono';
+    src: url('../fonts/AndaleMono.ttf');
+  }
+  @font-face {
+    font-family: 'cloisterblack';
+    src: url('../fonts/CloisterBlack.ttf');
+  }
+  @font-face {
+    font-family: 'myriadproregular';
+    src: url('../fonts/MYRIADPRO-REGULAR.woff');
+  }
+}
