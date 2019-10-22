@@ -33,25 +33,29 @@
     text-align: center;
   }
 
-                            /* SUBHEADER LINKS */
-
-  #link {
+                            /* BLOB */
+  #unit {
     position: absolute;
-    top: 30vh;
-    left: 50vw;
-    z-index: 2;
-    width: 220px;
-    height: 54px;
-    margin-left: -110px;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    height: 230px;
+    width: 335px;
+    margin: auto;
+    display: table;
   }
   .indexNav {
+    display: table-cell;
+    vertical-align: middle;
     font-family: 'ArialRB.ttf';
-    font-size: 17pt;
+    font-size: 14pt;
     color: black;
-    position: absolute;
+    z-index: 2;
+    text-align: center;
   }
 
-                        /* BLOBS - PATHS AT <SVG> LEVEL */
+                        /* SVG */
 
   #pcsvg{
   height: 230px;
@@ -108,21 +112,25 @@
   }
 
                             /* SUBHEADER LINKS */
-
-  #link {
+  #unit {
     position: absolute;
-    top: 40vh;
-    left: 50vw;
-    z-index: 2;
-    width: 220px;
-    height: 54px;
-    margin-left: -110px;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    height: 230px;
+    width: 335px;
+    margin: auto;
+    display: table;
   }
   .indexNav {
+    display: table-cell;
+    vertical-align: middle;
     font-family: 'ArialRB.ttf';
     font-size: 17pt;
     color: black;
-    position: absolute;
+    z-index: 2;
+    text-align: center;
   }
                         /* BLOBS - PATHS AT <SVG> LEVEL */
 
