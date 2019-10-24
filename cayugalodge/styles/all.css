@@ -1,7 +1,44 @@
 @media only screen and (min-width: 768px) {
+  #column1 {
+    text-align: center;
+  }
+  #column2 {
+    width: 73vw;
+    float: right;
+  }
+  .header {
+    margin: auto;
+    margin-top: 70px;
+  }
+  .homelink {
+    font-family: 'cloisterblack';
+    font-size: 24pt;
+  }
+  .slideshow {
+    width: 75%;
+    margin-top: 7%;
+    margin-left: 0%;
+  }
+  #pcsvg {
+    height: 250px;
+    width: 250px;
+    position: absolute;
+    top:0px;
+    bottom: 0px;
+    right: 0px;
+    left: 0px;
+    margin: auto;
+  }
+ .navlink {
+    fill: transparent;
+  }
+  .navlink:hover {
+     fill: white;
+     text-decoration: none;
+   }
   #indexBody {
     background-image: url('../media/indexbackground-resized.png');
-    background-size: cover;
+    background-size: 105% 105%;
     background-repeat: no-repeat;
     height:100vh;
     width: 100vw;
@@ -19,7 +56,7 @@
     margin: 0px;
   }
   a :hover {
-    text-decoration: underline;
+    text-decoration: none;
   }
   p {
     color: #542300;
@@ -27,46 +64,7 @@
     font-size: 14pt;
     margin: 0px;
   }
-  .header {
-    position: absolute;
-    top: 20px;
-    left: 20px;
-  }
-  .homelink {
-    font-family: 'cloisterblack';
-    font-size: 24pt;
-  }
-  .slideshow {
-    width: 50vw;
-    height: auto;
-    position: absolute;
-    top: 100px;
-    left: 0;
-    right: 0;
-    margin: auto;
-  }
-  @-webkit-keyframes hoverGlow {
-    from { -webkit-box-shadow: 0 0 9px #333; }
-    50% { -webkit-box-shadow: 0 0 18px #91bd09; }
-    to { -webkit-box-shadow: 0 0 9px #333; }
-  }
 
-  .navblock {
-    color: #542300;
-    font-family: 'myriadproregular';
-    font-size: 12pt;
-    margin: 0px;
-    position: absolute;
-    bottom: 20px;
-    right: 20px;
-    cursor: default;
-  }
-  .navblock a{
-    cursor: pointer;
-  }
-  .dashes {
-    letter-spacing: -2px;
-  }
   #currentpage {
     text-decoration: line-through;
     font-style: italic;
@@ -94,14 +92,54 @@
 }
 
 @media only screen and (max-width: 768px) {
+  #column1 {
+    text-align: center;
+  }
+  #column2 {
+    display: hidden;
+    width: 100vw;
+    height: 50vh;
+  }
+  .header {
+    margin-top: 15px;
+  }
+  .homelink {
+    font-family: 'cloisterblack';
+    font-size: 24pt;
+  }
+  #pcsvg {
+    height: 220px;
+    width: 220px;
+    position: absolute;
+    top:0px;
+    bottom: 0px;
+    right: 0px;
+    left: 0px;
+    margin: auto;
+  }
+ .navlink {
+    fill: transparent;
+  }
+  .navlink:hover {
+     fill: white;
+     text-decoration: none;
+   }
+  .slideshow {
+    position: absolute;
+    width: 90vw;
+    bottom:5vw;
+    margin-left: 5vw;
+    margin-right: 5vw;
+   }
   #indexBody {
     background-image: url('../media/indexbackground-resized.png');
-    background-size: cover;
+    background-size: 105% 105%;
     background-repeat: no-repeat;
     height:100vh;
     width: 100vw;
     overflow: hidden;
   }
+
   #aboutBody {
     background-image: url('../media/aboutbackground.png');
     height:100vh;
@@ -121,43 +159,6 @@
     font-family: 'myriadproregular';
     font-size: 14pt;
     margin: 0px;
-  }
-  .header-wrapper {
-    text-align: center;
-  }
-  .header {
-    display: inline-block;
-    margin-top: 15px;
-  }
-  .homelink {
-    font-family: 'cloisterblack';
-    font-size: 24pt;
-  }
-  .slideshow {
-    width: 90vw;
-    height: auto;
-    position: absolute;
-    top: 20vh;
-    left: 0;
-    right: 0;
-    margin: auto;
-  }
-  .navblock-wrapper {
-     text-align: center;
-  }
-  .navblock {
-    color: #542300;
-    font-family: 'myriadproregular';
-    font-size: 12pt;
-    cursor: default;
-    display: inline-block;
-    margin-top: 40vh;
-  }
-  .navblock a{
-    cursor: pointer;
-  }
-  .dashes {
-    letter-spacing: -2px;
   }
   #currentpage {
     text-decoration: line-through;
