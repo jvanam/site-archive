@@ -106,14 +106,14 @@
     width: 100vw;
     height: 50vh;
   }
-  .header {
+  #home_header {
     margin-top: 15px;
   }
-  .homelink {
+  .name_header {
     font-family: 'cloisterblack';
     font-size: 24pt;
   }
-  #pcsvg {
+  .nav_svg {
     height: 220px;
     width: 220px;
     position: absolute;
