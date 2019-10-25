@@ -153,23 +153,11 @@
     overflow: hidden;
     width: 30vw;
   }
-  a {
-    text-decoration: none;
-    color: #542300;
-    margin: 0px;
-  }
-  a :hover {
-    text-decoration: underline;
-  }
   p {
     color: #542300;
     font-family: 'myriadproregular';
     font-size: 14pt;
     margin: 0px;
-  }
-  #currentpage {
-    text-decoration: line-through;
-    font-style: italic;
   }
   #abouttextblock {
     position: absolute;
