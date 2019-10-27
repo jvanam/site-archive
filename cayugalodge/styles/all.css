@@ -1,67 +1,4 @@
 @media only screen and (min-width: 768px) {
-  #column1 {
-    text-align: center;
-  }
-  #column2 {
-    width: 73vw;
-    float: right;
-  }
-  #home_header {
-    margin: auto;
-    margin-top: 70px;
-  }
-  .subpage_header {
-    position:absolute;
-    top: 10px;
-    left: 10px;
-    text-align: center;
-    }
-  .name_header {
-    font-family: 'cloisterblack';
-    font-size: 24pt;
-  }
-  .slideshow {
-    width: 50%;
-    float: right;
-  }
-  .nav_svg {
-    height: 250px;
-    width: 250px;
-    position: absolute;
-    top:0px;
-    bottom: 0px;
-    right: 0px;
-    left: 0px;
-    margin: auto;
-  }
-  .subpage_nav {
-    height: 250px;
-    width: 250px;
-    margin-top: 20px;
-  }
- .navlink {
-    fill: transparent;
-  }
-  .navlink:hover {
-     fill: white;
-     text-decoration: none;
-   }
-  #indexBody {
-    background-image: url('../media/indexbackground-resized.png');
-    background-size: 105% 105%;
-    background-repeat: no-repeat;
-    height:100vh;
-    width: 100vw;
-    overflow: hidden;
-  }
-  #aboutBody {
-    background-image: url('../media/aboutbackground.png');
-    background-size: 105% 105%;
-    background-repeat: no-repeat;
-    height:100vh;
-    width: 100vw;
-    overflow: hidden;
-  }
   a {
     text-decoration: none;
     color: #542300;
@@ -72,16 +9,102 @@
   }
   p {
     color: #542300;
-    font-family: 'myriadproregular';
+    font-family: 'robotoreg';
     font-size: 14pt;
     margin: 0px;
   }
-  #about_body {
-    position: absolute;
-    left: 0px;
-    right: 0px;
+  body {
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+  }
+  #index-body {
+    background-image: url('../media/indexbackground-resized.png');
+    width: 100vw;
+    height: 100vh;
+    overflow: hidden;
+  }
+  #about-body {
+    background-image: url('../media/aboutbackground.png');
+    min-height: 100vh;
+  }
+  .header-title {
+    font-family: 'cloisterblack';
+    font-size: 24pt;
+  }
+  .header-text {
+    font-family: 'fluxlight';
+    margin-top: 3px;
+  }
+  .nav-link {
+     fill: transparent;
+   }
+  .nav-link:hover {
+    fill: white;
+    text-decoration: none;
+  }
+                    /*      SUBPAGES      */
+  .subpage-sidebar {
+    text-align: center;
+    width: 300px;
+    position: fixed;
+  }
+  .subpage-content {
+    margin-left: 300px;
+    width: 900px;
+  }
+  .subpage-nav {
+    height: 210px;
+    width: 210px;
+    margin-top: 30px;
+  }
+  .subpage-title {
+    font-family: 'arialrounded';
+    text-align: center;
+    margin: 35px;
+    font-size: 24px;
+  }
+                    /*      INDEX      */
+  #index-container {
+    text-align: center;
+  }
+  #index-header {
     margin: auto;
-    width: 60vw;
+    margin-top: 70px;
+  }
+  #index-nav {
+    height: 250px;
+    width: 250px;
+    position: absolute;
+    top:0px;
+    bottom: 0px;
+    right: 0px;
+    left: 0px;
+    margin: auto;
+  }
+                    /*      ABOUT      */
+  .slideshow {
+    width: 70%;
+    margin: auto
+  }
+  #slideshow-wrapper{
+    height: 430px;
+  }
+                    /*      FONTS      */
+  @font-face {
+    font-family: 'arialrounded';
+    src: url('../fonts/ArialRoundedBold.ttf')
+  }
+  @font-face {
+    font-family: 'fluxbold';
+    src: url('../fonts/FluxischElse-Bold.otf')
+  }
+  @font-face {
+    font-family: 'fluxreg';
+    src: url('../fonts/FluxischElse-Regular.otf')
+  }
+  @font-face {
+    font-family: 'fluxlight';
+    src: url('../fonts/FluxischElse-Light.otf')
   }
   @font-face {
     font-family: 'andalemono';
@@ -95,26 +118,85 @@
     font-family: 'myriadproregular';
     src: url('../fonts/MYRIADPRO-REGULAR.woff');
   }
+  @font-face {
+    font-family: 'robotoreg';
+    src: url('../fonts/Roboto-Regular.ttf');
+  }
 }
 
 @media only screen and (max-width: 768px) {
-  #column1 {
-    text-align: center;
+  a {
+    text-decoration: none;
+    color: #542300;
+    margin: 0px;
   }
-  #column2 {
-    display: hidden;
+  a :hover {
+    text-decoration: none;
+  }
+  p {
+    color: #542300;
+    font-family: 'robotoreg';
+    font-size: 14pt;
+    margin: 0px;
+  }
+  body {
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+  }
+  #index-body {
+    background-image: url('../media/indexbackground-resized.png');
     width: 100vw;
-    height: 50vh;
+    height: 100vh;
+    overflow: hidden;
   }
-  #home_header {
-    margin-top: 15px;
+  #about-body {
+    background-image: url('../media/aboutbackground.png');
+    min-height: 100vh;
   }
-  .name_header {
+  .header-title {
     font-family: 'cloisterblack';
     font-size: 24pt;
-    color: #542300;
   }
-  .nav_svg {
+  .header-text {
+    font-family: 'fluxlight';
+    margin-top: 3px;
+  }
+  .nav-link {
+     fill: transparent;
+   }
+  .nav-link:hover {
+    fill: white;
+    text-decoration: none;
+  }
+                    /* SUBPAGES */
+  .subpage-sidebar {
+    text-align: center;
+    margin-top: 30px;
+    width: 100%
+  }
+  .subpage-content {
+    width: 100%;
+  }
+  .subpage-nav {
+    height: 210px;
+    width: 210px;
+    margin-top: 30px;
+  }
+  .subpage-title {
+    font-family: 'arialrounded';
+    text-align: center;
+    margin: 35px;
+    font-size: 24pt;
+  }
+                    /* INDEX */
+  #index-container {
+    text-align: center;
+  }
+  #index-header {
+    margin: auto;
+    margin-top: 15px;
+  }
+  #index-nav {
     height: 220px;
     width: 220px;
     position: absolute;
@@ -124,49 +206,32 @@
     left: 0px;
     margin: auto;
   }
- .navlink {
-    fill: transparent;
-  }
-  .navlink:hover {
-     fill: white;
-     text-decoration: none;
+                    /* ABOUT */
+   .slideshow {
+     width: 90%;
+     margin: auto
    }
-  .slideshow {
-    position: absolute;
-    width: 90vw;
-    bottom:5vw;
-    margin-left: 5vw;
-    margin-right: 5vw;
+   #about-bio {
+     width: 90%;
+     margin: auto;
+     font-size: 13pt;
    }
-  #indexBody {
-    background-image: url('../media/indexbackground-resized.png');
-    background-size: 105% 105%;
-    background-repeat: no-repeat;
-    height:100vh;
-    width: 100vw;
-    overflow: hidden;
+                    /* FONTS */
+  @font-face {
+    font-family: 'arialrounded';
+    src: url('../fonts/ArialRoundedBold.ttf')
   }
-
-  #aboutBody {
-    background-image: url('../media/aboutbackground.png');
-    height:100vh;
-    width: 100vw;
-    overflow: hidden;
-    width: 30vw;
+  @font-face {
+    font-family: 'fluxbold';
+    src: url('../fonts/FluxischElse-Bold.otf')
   }
-  p {
-    color: #542300;
-    font-family: 'myriadproregular';
-    font-size: 14pt;
-    margin: 0px;
+  @font-face {
+    font-family: 'fluxreg';
+    src: url('../fonts/FluxischElse-Regular.otf')
   }
-  #abouttextblock {
-    position: absolute;
-    left: 0vw;
-    right: 0vw;
-    margin-left: 20vw;
-    margin-right: 25vw;
-    top: 35px;
+  @font-face {
+    font-family: 'fluxlight';
+    src: url('../fonts/FluxischElse-Light.otf')
   }
   @font-face {
     font-family: 'andalemono';
@@ -179,5 +244,9 @@
   @font-face {
     font-family: 'myriadproregular';
     src: url('../fonts/MYRIADPRO-REGULAR.woff');
+  }
+  @font-face {
+    font-family: 'robotoreg';
+    src: url('../fonts/Roboto-Regular.ttf');
   }
 }

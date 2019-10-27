@@ -12,3 +12,16 @@ function carousel() {
   x[slideIndex-1].style.display = "block";
   setTimeout(carousel, 2000); // Change image every 2 seconds
 }
+
+var morphing = anime({
+  targets: '.subpage-nav',
+  rotateZ: 360,
+  easing: 'linear',
+  duration: 20000,
+  loop: true
+});
+
+var nav = document.querySelector('.Layer_2');
+
+nav.addEventListener('mouseenter', function() { morphing.pause(); });
+nav.addEventListener('mouseleave', function() { morphing.play(); });
