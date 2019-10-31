@@ -22,13 +22,16 @@
     </div>
 
 <script>
-  window.addEventListener('touchmove', function() { anime({
-    targets: '.box',
-    rotateZ: 360,
-    easing: 'linear',
-    duration: 20000,
-    loop: true
-  }); });
+var morphing = anime({
+  targets: '.box',
+  rotateZ: 360,
+  easing: 'linear',
+  duration: 20000,
+  loop: true
+});
+
+window.addEventListener('touchmove', function() { morphing.pause(); });
+
 </script>
 
 
