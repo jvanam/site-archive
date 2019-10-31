@@ -31,6 +31,7 @@ var morphing = anime({
 });
 
 window.addEventListener('touchmove', function() { morphing.pause(); });
+window.addEventListener('touchend', function() { morphing.play(); });
 
 </script>
 
