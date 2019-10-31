@@ -22,18 +22,13 @@
     </div>
 
 <script>
-  var morphing = anime({
+  window.addEventListener('touchstart', function() { anime({
     targets: '.box',
     rotateZ: 360,
     easing: 'linear',
     duration: 20000,
     loop: true
-  });
-
-  var touchnav = document.querySelector('#index-nav');
-
-  touchnav.addEventListener('touchstart', function() { morphing.pause(); });
-  touchnav.addEventListener('touchend', function() { morphing.play(); });
+  }); });
 </script>
 
 
