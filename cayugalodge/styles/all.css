@@ -39,8 +39,8 @@
      fill: transparent;
    }
   .nav-link:hover {
-    fill: white;
     text-decoration: none;
+    fill: white;
   }
                     /*      SUBPAGES      */
   .subpage-sidebar {
@@ -124,7 +124,7 @@
   }
 }
 
-@media only screen and (max-width: 768px) {
+@media only screen and (max-width: 767px) {
   a {
     text-decoration: none;
     color: #542300;
@@ -144,13 +144,13 @@
     background-repeat: no-repeat;
   }
   #index-body {
-    background-image: url('../media/indexbackground-resized.png');
+    background-image: url('../media/indexbackgroundmobile3.png');
     width: 100vw;
     height: 100vh;
     overflow: hidden;
   }
   #about-body {
-    background-image: url('../media/aboutbackground.png');
+    background-image: url('../media/aboutbackgroundmobile2.png');
     min-height: 100vh;
   }
   .header-title {
