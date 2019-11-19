@@ -1,0 +1,251 @@
+body {
+  overflow-x: hidden;
+}
+a {
+  text-decoration: none;
+  color: inherit;
+}
+a:visited {
+  text-decoration: none;
+  color: inherit;
+}
+p {
+}
+svg {
+  pointer-events:fill;
+}
+svg path {
+  width: 100%;
+  height:auto;
+}
+#index-body {
+  background-color: #add8e6;
+}
+.header-nav {
+  font-size: 30pt;
+  font-family: 'Meadow';
+  color: #b5b5b5;
+  margin-left: 30px;
+  margin-bottom: 10px;
+  position: absolute;
+  top: 20px;
+}
+.header-nav a {
+  margin-right: 30px;
+}
+#header-nav-design {
+  color: #7c9df1;
+}
+.designbody {
+  font-size: 20pt;
+  font-family: 'Helvetica';
+  margin-left: 40px;
+  margin-top: 30px;
+  margin-right: 100px;
+}
+#design-body {
+  background-color: #e3e3e3;
+}
+
+                                /* HEADER */
+
+.name-head {
+  font-family: 'Meadow';
+  font-size: 40px;
+  text-align: center;
+  padding: auto;
+  color: black;
+  margin-top: 30px;
+}
+.name-head a:hover{
+  color:blue;
+}
+.name-head a{
+  text-align: center;
+}
+.home-svg {
+  height: 70px;
+  fill: transparent;
+  margin-top: 5px;
+  margin-left: 5px;
+}
+#home-path {
+  stroke: #7c9df1;
+  stroke-width: 2px;
+}
+
+                          /* SUBHEADER LINKS */
+
+.nav-links {
+  font-family: 'Meadow';
+  font-size: 17pt;
+  position: absolute;
+  text-decoration: none;
+  color: black;
+  z-index: 2;
+}
+.nav-links:hover{
+  color: blue;
+}
+#aboutlink {
+  position: absolute;
+  height: 100px;
+  width: 150px;
+  background-color: black;
+  top: 50vh;
+  left: 70vw;
+}
+#designlink {
+  top: 25vh;
+  left: 18vw;
+}
+#essayslink {
+  top: 40vh;
+  left: 60vw;
+}
+#artlink {
+  top: 65vh;
+  left: 40vw;
+}
+
+                      /* BLOBS - PATHS AT <SVG> LEVEL */
+
+.nav-svg {
+z-index: 0;
+position: absolute;
+}
+#pcsvg{
+top: 10vh;
+left: 10vw;
+height: 230px;
+width: 335px;
+}
+#pcsvg :hover {
+fill:#ffffff;
+}
+#artsvg {
+top: 60vh;
+left: 30vw;
+height: 305px;
+width: 300px;
+z-index: 1;
+fill:#e7856a;
+}
+#artsvg :hover {
+fill:#ffffff;
+}
+#aboutsvg {
+top: 20vh;
+left: 65vw;
+height: 560px;
+width: 330px;
+fill:#c9bdf3;
+}
+#aboutsvg :hover {
+fill:#ffffff;
+}
+#extrasvgone {
+top: 13vh;
+left: 35vw;
+height: 400px;
+width: 470px;
+fill:#e7e496;
+}
+#extrasvgone :hover {
+fill: none;
+}
+#extrasvgtwo {
+top: 45vh;
+left: 10vw;
+height: 370px;
+width: 300px;
+fill:#b4e08b;
+}
+#extrasvgtwo :hover {
+fill: none;
+}
+#essayssvg {
+top: 35vh;
+left: 50vw;
+height: 330px;
+width: 240px;
+fill:#5fc8b4;
+}
+#essayssvg :hover {
+fill:#ffffff;
+}
+
+                        /* SUBPAGES */
+
+
+                  /* DSN PROTOTYPES */
+
+#dpContentBox {
+  margin-left: 20vw;
+  margin-right: 20vw;
+}
+.projectHeader {
+  font-family: 'ArialRB.ttf';
+  font-size: 17pt;
+  margin-bottom: 0px;
+  margin-top: 50px;
+}
+.underline {
+  height: 5px;
+  background-color:#b4e08b;
+  width: 100%;
+  margin-top: 0px;
+}
+#dpBody {
+  background-color: #fffffa;
+}
+video {
+  margin-top: 20px;
+}
+.descript {
+  font-family: sans-serif;
+  font-size: 13pt;
+}
+.prototypemedia {
+  float: left;
+  width: 50%;
+  height: auto;
+}
+
+
+@font-face {
+  font-family: 'Meadow';
+  src: url('../fonts/GlyphWorld-Meadow.otf');
+}
+@font-face {
+  font-family: 'Forest';
+  src: url('../fonts/GlyphWorld-Forest.otf');
+}
+@font-face {
+  font-family: 'Flower';
+  src: url('../fonts/GlyphWorld-Flower.otf');
+}
+@font-face {
+  font-family: 'RobotoMedium';
+  src: url('../fonts/Roboto-Medium.ttf')
+}
+@font-face {
+  font-family: 'FluxRegular';
+  src: url('../fonts/FluxischElse-Regular.otf')
+}
+@font-face {
+  font-family: 'FluxLight';
+  src: url('../fonts/FluxischElse-Light.otf')
+}
+@font-face {
+  font-family: 'ArialRB.ttf';
+  src: url('../fonts/ArialRoundedBold.ttf');
+}
+@font-face {
+  font-family: 'ArialRegular';
+  src: url('../fonts/unicode.arialr.ttf');
+}
+@font-face {
+  font-family: 'Helvetica';
+  src: url('../fonts/Helvetica.ttc');
+}
