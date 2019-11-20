@@ -21,6 +21,9 @@ svg path {
 #index-body {
   background-color: #add8e6;
 }
+.subpage-body {
+  background-color: #e3e3e3;
+}
 .header-nav {
   font-size: 30pt;
   font-family: 'Meadow';
@@ -33,19 +36,56 @@ svg path {
 .header-nav a {
   margin-right: 30px;
 }
-#header-nav-design {
+#header-nav-design-active {
   color: #7c9df1;
 }
-.designbody {
-  font-size: 20pt;
-  font-family: 'Helvetica';
+.header-nav-design-latent:hover{
+  color: #7c9df1;
+}
+#header-nav-essays-active {
+ color: #5fc8b4;
+}
+.header-nav-essays-latent:hover {
+ color: #5fc8b4;
+}
+#header-nav-ceramics-active {
+ color: #e7856a;
+}
+.header-nav-ceramics-latent:hover {
+ color: #e7856a;
+}
+#header-nav-about-active {
+ color: #c9bdf3;
+}
+.header-nav-about-latent:hover {
+ color: #c9bdf3;
+}
+
+.subpage-text-header {
+  font-size: 15pt;
+  font-family: 'robotomonolight';
   margin-left: 40px;
   margin-top: 30px;
-  margin-right: 100px;
+  margin-right: 40px;
+  color:#1a1a1a;
+  margin-bottom:0px;
 }
-#design-body {
-  background-color: #e3e3e3;
+.subpage-text-header:hover {
+  text-decoration: underline;
 }
+.subpage-text-body {
+  font-size: 13pt;
+  font-family: 'robotomonolight';
+  margin-left: 40px;
+  margin-top: 30px;
+  margin-right: 40px;
+  color:#1a1a1a;
+  margin-top:5px;
+  width: 85vw;
+  margin: auto;
+  margin-bottom: 10px;
+}
+
 
                                 /* HEADER */
 
@@ -69,9 +109,20 @@ svg path {
   margin-top: 5px;
   margin-left: 5px;
 }
-#home-path {
-  stroke: #7c9df1;
+.home-path {
   stroke-width: 2px;
+}
+#home-path-design {
+  stroke: #7c9df1;
+}
+#home-path-essays {
+  stroke: #5fc8b4;
+}
+#home-path-ceramics {
+  stroke: #e7856a;
+}
+#home-path-about {
+  stroke: #c9bdf3;
 }
 
                           /* SUBHEADER LINKS */
@@ -119,6 +170,7 @@ top: 10vh;
 left: 10vw;
 height: 230px;
 width: 335px;
+fill: #7c9df1;
 }
 #pcsvg :hover {
 fill:#ffffff;
@@ -176,7 +228,15 @@ fill:#ffffff;
 }
 
                         /* SUBPAGES */
-
+#ceramic-photos {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  width: 85vw;
+  justify-content: left;
+  margin: auto;
+  margin-top: 20px;
+}
 
                   /* DSN PROTOTYPES */
 
@@ -248,4 +308,16 @@ video {
 @font-face {
   font-family: 'Helvetica';
   src: url('../fonts/Helvetica.ttc');
+}
+@font-face {
+  font-family: 'AlteBold';
+  src: url('../fonts/AlteHaasGroteskBold.ttf');
+}
+@font-face {
+    font-family: 'Alte';
+    src: url('../fonts/AlteHaasGroteskRegular.ttf');
+  }
+@font-face {
+  font-family: 'robotomonolight';
+  src: url('../fonts/RobotoMono-Light.ttf');
 }
