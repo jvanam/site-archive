@@ -246,7 +246,7 @@
 @media only screen and (max-width: 599px) {
   body {
     overflow-x: hidden;
-    width: 100vw;
+    max-width: 100vw;
   }
   a {
     text-decoration: none;
