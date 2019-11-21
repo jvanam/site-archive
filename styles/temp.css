@@ -373,14 +373,13 @@
     display: flex;
     flex-direction: row;
     flex-wrap: wrap;
-    width: 100vw;
+    width: 90vw;
     justify-content: left;
     margin: auto;
     margin-top: 10px;
-    margin-left: 10px;
   }
   .ceramic-thumb {
-    height: 50px;
+    height: 70px;
     width: auto;
   }
                             /* SUBHEADER LINKS */
