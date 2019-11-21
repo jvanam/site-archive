@@ -1,6 +1,7 @@
 @media only screen and (min-width: 600px) {
   body {
     overflow-x: hidden;
+    width: 100vw;
   }
   a {
     text-decoration: none;
@@ -27,7 +28,7 @@
     font-size: 30pt;
     font-family: 'Meadow';
     color: #b5b5b5;
-    margin-left: 30px;
+    margin-left: 25px;
     margin-bottom: 10px;
     position: absolute;
     top: 20px;
@@ -245,6 +246,7 @@
 @media only screen and (max-width: 599px) {
   body {
     overflow-x: hidden;
+    width: 100vw;
   }
   a {
     text-decoration: none;
