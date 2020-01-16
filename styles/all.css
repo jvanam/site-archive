@@ -1,11 +1,14 @@
-@media only screen and (max-width: 768px) {
+@media only screen and (max-width: 599px) {
   body {
     overflow-x: hidden;
   }
   a {
     text-decoration: none;
+    color: inherit;
   }
-  p {
+  a:visited {
+    text-decoration: none;
+    color: inherit;
   }
   svg {
     pointer-events:fill;
@@ -14,148 +17,714 @@
     width: 100%;
     height:auto;
   }
-  #indexBody {
+                              /* INDEX */
+  #index-body {
     background-color: #add8e6;
   }
-
-                                  /* HEADER */
-
-  .nameHeader {
-    font-family: 'TamilMN.ttf';
-    font-size: 30px;
+  .name-head {
+    font-family: 'Meadow';
+    font-size: 40px;
     text-align: center;
     padding: auto;
+    color: black;
+    margin-top: 30px;
   }
-  .nameHeader p:hover{
+  .name-head a:hover{
     color:blue;
   }
-  .nameHeader p{
+  .name-head a{
     text-align: center;
   }
-
-                            /* BLOB */
-  #unit {
-    position: absolute;
-    top: 0;
-    left: 0;
-    right: 0;
-    bottom: 0;
-    height: 230px;
-    width: 335px;
-    margin: auto;
-    display: table;
+                            /*  SUBPAGES  */
+  .subpage-body {
+    background-color: #e3e3e3;
   }
-  .indexNav {
-    display: table-cell;
-    vertical-align: middle;
-    font-family: 'ArialRB.ttf';
-    font-size: 14pt;
+  .subpage-text-header {
+    font-size: 12pt;
+    font-family: 'Roboto';
+    margin-bottom:0px;
+    margin-top:0px;
+    width: 700px;
+  }
+  .subpage-text-body {
+    font-size: 11pt;
+    font-family: 'Roboto-Light';
+    color:black;
+    line-height: 1.2;
+    margin-bottom:0px;
+  }
+                            /*  CERAMICS  */
+  #ceramic-photos {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    width: 90vw;
+    justify-content: left;
+    margin: auto;
+    margin-top: 10px;
+  }
+  .ceramic-thumb {
+    height:100px;
+    width: 150px;
+    box-sizing: border-box;
+  }
+  .ceramic-thumb:hover {
+    border-style: solid;
+    border-width: thin;
+    border-color: white;
+  }
+                            /*  DESIGN  */
+  #dsn-content {
+    display: flex;
+    flex-wrap: wrap;
+    padding-top: 5px;
+  }
+  .subpage-content-box-left {
+    width: 90%;
+    border-style: solid;
+    border-radius: 10px;
+    border-width: 1px;
+    border-color: black;
+    padding: 15px;
+    margin: auto;
+    margin-bottom: 25px;
+  }
+  .subpage-content-box-right {
+    width: 90%;
+    border-style: solid;
+    border-radius: 10px;
+    border-width: 1px;
+    border-color: black;
+    padding: 15px;
+    margin: auto;
+    margin-bottom: 25px;
+  }
+  #lodge-div {
+    width: 100%;
+    height: 200px;;
+    background-image: url("../media/prototypes/lodgebg.png");
+    background-size:100% 100%;
+  }
+  #lodge-nav {
+    height:180px;
+    width: 180px;
+    margin-left: 33%;
+    margin-top: 10px;
+  }
+                            /*  ESSAYS  */
+  .essays-text-subheader {
+    font-size: 13pt;
+    font-family: 'Roboto-Light';
+    margin-bottom:0px;
+    margin-top:0px;
+  }
+  .essays-text-header-hover:hover{
+    color: #7c9df1;
+    text-decoration: underline;
+    text-decoration-color: #7c9df1;
+  }
+  #mudiyettu-img {
+    height: auto;
+    width: 90%;
+    border-style: solid;
+    border-radius: 10px;
+    border-width: 1px;
+    border-color: black;
+    padding: 15px;
+    margin: auto;
+    margin-bottom: 25px;
+  }
+  #isee {
+    height: auto;
+    width: 90%;
+    border-style: solid;
+    border-radius: 10px;
+    border-width: 1px;
+    border-color: black;
+    padding: 15px;
+    margin: auto;
+    margin-bottom: 25px;
+  }
+  #cyborg-img {
+    height: auto;
+    width: 90%;
+    border-style: solid;
+    border-radius: 10px;
+    border-width: 1px;
+    border-color: black;
+    padding: 15px;
+    margin: auto;
+    margin-bottom: 25px;
+  }
+  #stelarc {
+    width: 75%;
+    height: auto;
+    float: right;
+  }
+  #vns {
+    width: 70%;
+    height: auto;
+    z-index: 1;
+    margin-top: -10%;
+  }
+                        /*  SUBPAGES NAV HEADER  */
+  .header-nav {
+    font-size: 13pt;
+    font-family: 'Meadow';
+    color: #b5b5b5;
+    margin-left: 7px;
+    margin-bottom: 5px;
+    position: absolute;
+    top: 20px;
+  }
+  .header-nav a {
+    margin-right: 15px;
+  }
+  #header-nav-design-active {
+    color: #7c9df1;
+  }
+  .header-nav-design-latent:hover{
+    color: #7c9df1;
+  }
+  #header-nav-essays-active {
+   color: #5fc8b4;
+  }
+  .header-nav-essays-latent:hover {
+   color: #5fc8b4;
+  }
+  #header-nav-ceramics-active {
+   color: #e7856a;
+  }
+  .header-nav-ceramics-latent:hover {
+   color: #e7856a;
+  }
+  #header-nav-about-active {
+   color: #c9bdf3;
+  }
+  .header-nav-about-latent:hover {
+   color: #c9bdf3;
+  }
+  .home-svg {
+    height: 40px;
+    fill: transparent;
+    margin-top: 5px;
+    margin-left: 5px;
+  }
+  .home-path {
+    stroke-width: 2px;
+  }
+  #home-path-design {
+    stroke: #7c9df1;
+  }
+  #home-path-essays {
+    stroke: #5fc8b4;
+  }
+  .home-path-ceramics {
+    stroke: #e7856a;
+  }
+  #home-path-about {
+    stroke: #c9bdf3;
+  }
+                            /*  INDEX LINKS  */
+  .nav-links {
+    font-family: 'Meadow';
+    font-size: 17pt;
+    position: absolute;
+    text-decoration: none;
     color: black;
     z-index: 2;
+  }
+  .nav-links:hover{
+    color: blue;
+  }
+  #aboutlink {
+    position: absolute;
+    height: 100px;
+    width: 150px;
+    background-color: black;
+    top: 50vh;
+    left: 70vw;
+  }
+  #designlink {
+    top: 25vh;
+    left: 18vw;
+  }
+  #essayslink {
+    top: 40vh;
+    left: 60vw;
+  }
+  #artlink {
+    top: 65vh;
+    left: 40vw;
+  }
+                            /*  INDEX SVGS  */
+  .nav-svg {
+    z-index: 0;
+    position: absolute;
+  }
+  #pcsvg{
+    top: 10vh;
+    left: 10vw;
+    height: 200px;
+    width: 200px;
+    fill: #7c9df1;
+  }
+  #pcsvg :hover {
+    fill:#ffffff;
+  }
+  #artsvg {
+    top: 60vh;
+    left: 30vw;
+    height: 305px;
+    width: 300px;
+    z-index: 1;
+    fill:#e7856a;
+  }
+  #artsvg :hover {
+    fill:#ffffff;
+  }
+  #aboutsvg {
+    top: 20vh;
+    left: 65vw;
+    height: 560px;
+    width: 330px;
+    fill:#c9bdf3;
+  }
+  #aboutsvg :hover {
+    fill:#ffffff;
+  }
+  #extrasvgone {
+    top: 13vh;
+    left: 35vw;
+    height: 620px;
+    width: 680px;
+    fill:#e7e496;
+  }
+  #extrasvgone :hover {
+    fill: none;
+  }
+  #extrasvgtwo {
+    top: 45vh;
+    left: 10vw;
+    height: 370px;
+    width: 300px;
+    fill:#b4e08b;
+  }
+  #extrasvgtwo :hover {
+    fill: none;
+  }
+  #essayssvg {
+    top: 35vh;
+    left: 50vw;
+    height: 330px;
+    width: 240px;
+    fill:#5fc8b4;
+  }
+  #essayssvg :hover {
+    fill:#ffffff;
+  }
+}
+
+
+@media only screen and (min-width: 600px) {
+  body {
+    overflow-x: hidden;
+  }
+  a {
+    text-decoration: none;
+    color: inherit;
+  }
+  a:visited {
+    text-decoration: none;
+    color: inherit;
+  }
+  p {
+    margin: none;
+    padding: none;
+  }
+  ol {
+    margin: none;
+    padding: none;
+  }
+  svg {
+    pointer-events:fill;
+  }
+  svg path {
+    width: 100%;
+    height:auto;
+  }
+                            /*  INDEX  */
+  #index-body {
+    background-color: #add8e6;
+  }
+  .nav-link {
+     fill: transparent;
+   }
+  .nav-link:hover {
+    text-decoration: none;
+    fill: white;
+  }
+  .name-head {
+    font-family: 'Meadow';
+    font-size: 40px;
+    text-align: center;
+    padding: auto;
+    color: black;
+    margin-top: 30px;
+  }
+  .name-head a:hover{
+    color:blue;
+  }
+  .name-head a{
     text-align: center;
   }
-
-                        /* SVG */
-
+                            /* SUBPAGES */
+  .subpage-body {
+    background-color: #ededed;
+  }
+  .subpage-text-header {
+    font-size: 15pt;
+    font-family: 'Roboto';
+    margin-bottom:0px;
+    margin-top:0px;
+    width: 700px;
+  }
+  .subpage-text-body {
+    font-size: 13pt;
+    font-family: 'Roboto-Light';
+    color:black;
+    line-height: 1.2;
+    margin-bottom:0px;
+  }
+                              /* CERAMICS */
+  #ceramic-photos {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    width: 85vw;
+    justify-content: left;
+    margin: auto;
+    margin-top: 20px;
+  }
+  .ceramic-thumb {
+    height:100px;
+    width: 150px;
+    box-sizing: border-box;
+  }
+  .ceramic-thumb:hover {
+    border-style: solid;
+    border-width: thin;
+    border-color: white;
+  }
+                          /* DESIGN */
+  #lodge-div {
+    width: 350px;
+    height: 200px;;
+    background-image: url("../media/prototypes/lodgebg.png");
+    background-size:100% 100%;
+  }
+  #lodge-nav {
+    height:180px;
+    width: 180px;
+    margin-left: 85px;
+    margin-top: 10px;
+  }
+  #dsn-content {
+    display: flex;
+    flex-wrap: wrap;
+    padding-left: 120px;
+    padding-top: 0px;
+  }
+  .subpage-content-box-left {
+    width: 700px;
+    border-style: solid;
+    border-radius: 10px;
+    border-width: 1px;
+    border-color: black;
+    padding: 20px;
+    margin-right: 25px;
+    margin-bottom: 25px;
+  }
+  .subpage-content-box-right {
+    width: 350px;
+    border-style: solid;
+    border-radius: 10px;
+    border-width: 1px;
+    border-color: black;
+    padding: 20px;
+    margin-bottom: 25px;
+    height: auto;
+  }
+                          /* ESSAYS */
+  .essays-text-subheader {
+    font-size: 13pt;
+    font-family: 'Roboto-Light';
+    margin-bottom:0px;
+    margin-top:0px;
+    width: 700px;
+  }
+  .essays-text-header-hover:hover {
+    color: #7c9df1;
+    text-decoration: underline;
+    text-decoration-color: #7c9df1;
+  }
+  #mudiyettu-img {
+    display:none;
+    width: 350px;
+    height: auto;
+    position: absolute;
+    left: 930px;
+    top: 90px;
+  }
+  #mudiyettu:hover+#mudiyettu-img{
+    display: block;
+  }
+  #isee {
+    display:none;
+    width: 350px;
+    height: auto;
+    position: absolute;
+    left: 930px;
+    top: 90px;
+  }
+  #border:hover+#isee{
+    display: block;
+  }
+  #stelarc {
+    position: absolute;
+    left: 1030px;
+    top: 100px;
+    width: 350px;
+    height: auto;
+  }
+  #vns {
+    position: absolute;
+    left: 900px;
+    top: 300px;
+    width: 350px;
+    height: auto;
+  }
+  #cyborg-img {
+    display: none;
+  }
+  #cyborg:hover+#cyborg-img{
+    display:block;
+  }
+                            /* SUBPAGES NAV HEADER */
+  .header-nav {
+    font-size: 30pt;
+    font-family: 'Meadow';
+    color: #b5b5b5;
+    margin-left: 30px;
+    margin-bottom: 10px;
+    position: absolute;
+    top: 20px;
+  }
+  .header-nav a {
+    margin-right: 30px;
+  }
+  #header-nav-design-active {
+    color: #7c9df1;
+  }
+  .header-nav-design-latent:hover{
+    color: #7c9df1;
+  }
+  #header-nav-essays-active {
+    color: #5fc8b4;
+  }
+  .header-nav-essays-latent:hover {
+    color: #5fc8b4;
+  }
+  #header-nav-ceramics-active {
+    color: #e7856a;
+  }
+  .header-nav-ceramics-latent:hover {
+    color: #e7856a;
+  }
+  #header-nav-about-active {
+    color: #c9bdf3;
+  }
+  .header-nav-about-latent:hover {
+    color: #c9bdf3;
+  }
+  .home-svg {
+    height: 70px;
+    fill: transparent;
+    margin-top: 5px;
+    margin-left: 5px;
+  }
+  .home-path {
+    stroke-width: 2px;
+  }
+  #home-path-design {
+    stroke: #7c9df1;
+  }
+  #home-path-essays {
+    stroke: #5fc8b4;
+  }
+  #home-path-ceramics {
+    stroke: #e7856a;
+  }
+  #home-path-about {
+    stroke: #c9bdf3;
+  }
+                            /* INDEX LINKS */
+  .nav-links {
+    font-family: 'Meadow';
+    font-size: 17pt;
+    position: absolute;
+    text-decoration: none;
+    color: black;
+    z-index: 2;
+  }
+  .nav-links:hover{
+    color: blue;
+  }
+  #designlink {
+    top: 25vh;
+    left: 18vw;
+  }
+  #essayslink {
+    top: 40vh;
+    left: 60vw;
+  }
+  #artlink {
+    top: 65vh;
+    left: 40vw;
+  }
+                        /* INDEX SVGS */
+  .nav-svg {
+  z-index: 0;
+  position: absolute;
+  }
   #pcsvg{
+  top: 10vh;
+  left: 10vw;
   height: 230px;
   width: 335px;
-  fill:#e7e496;
-  position: absolute;
-  top: 0;
-  left: 0;
-  right: 0;
-  bottom: 0;
-  margin: auto;
-  z-index: -1;
-  display: block;
+  fill: #7c9df1;
   }
   #pcsvg :hover {
   fill:#ffffff;
   }
-}
-
-@media only screen and (min-width: 768px) {
-  body {
-    overflow-x: hidden;
+  #artsvg {
+  top: 60vh;
+  left: 30vw;
+  height: 305px;
+  width: 300px;
+  z-index: 1;
+  fill:#e7856a;
   }
-  a {
-    text-decoration: none;
+  #artsvg :hover {
+  fill:#ffffff;
   }
-  p {
+  #aboutsvg {
+  top: 20vh;
+  left: 65vw;
+  height: 560px;
+  width: 330px;
+  fill:#c9bdf3;
   }
-  svg {
-    pointer-events:fill;
+  #aboutsvg :hover {
+  fill:#ffffff;
   }
-  svg path {
-    width: 100%;
-    height:auto;
-  }
-  #indexBody {
-    background-color: #add8e6;
-  }
-
-                                  /* HEADER */
-
-  .nameHeader {
-    font-family: 'TamilMN.ttf';
-    font-size: 40px;
-    text-align: center;
-    max-width:300px
-    padding: auto;
-  }
-  .nameHeader p:hover{
-    color:blue;
-  }
-  .nameHeader p{
-    text-align: center;
-  }
-
-                            /* SUBHEADER LINKS */
-  #unit {
-    position: absolute;
-    top: 0;
-    left: 0;
-    right: 0;
-    bottom: 0;
-    height: 230px;
-    width: 335px;
-    margin: auto;
-    display: table;
-  }
-  .indexNav {
-    display: table-cell;
-    vertical-align: middle;
-    font-family: 'ArialRB.ttf';
-    font-size: 17pt;
-    color: black;
-    z-index: 2;
-    text-align: center;
-  }
-                        /* BLOBS - PATHS AT <SVG> LEVEL */
-
-  #pcsvg{
-  height: 230px;
-  width: 335px;
+  #extrasvgone {
+  top: 13vh;
+  left: 35vw;
+  height: 400px;
+  width: 470px;
   fill:#e7e496;
-  position: absolute;
-  top: 0;
-  left: 0;
-  right: 0;
-  bottom: 0;
-  margin: auto;
-  z-index: -1;
-  display: block;
   }
-  #pcsvg :hover {
+  #extrasvgone :hover {
+  fill: none;
+  }
+  #extrasvgtwo {
+  top: 45vh;
+  left: 10vw;
+  height: 370px;
+  width: 300px;
+  fill:#b4e08b;
+  }
+  #extrasvgtwo :hover {
+  fill: none;
+  }
+  #essayssvg {
+  top: 35vh;
+  left: 50vw;
+  height: 330px;
+  width: 240px;
+  fill:#5fc8b4;
+  }
+  #essayssvg :hover {
   fill:#ffffff;
   }
 }
 
 @font-face {
-  font-family: 'TamilMN.ttf';
-  src: url('../fonts/TamilMN.ttf');
+  font-family: 'Meadow';
+  src: url('../fonts/GlyphWorld-Meadow.otf');
+}
+@font-face {
+  font-family: 'Forest';
+  src: url('../fonts/GlyphWorld-Forest.otf');
+}
+@font-face {
+  font-family: 'Flower';
+  src: url('../fonts/GlyphWorld-Flower.otf');
+}
+@font-face {
+  font-family: 'RobotoMedium';
+  src: url('../fonts/Roboto-Medium.ttf')
+}
+@font-face {
+  font-family: 'Roboto';
+  src: url('../fonts/Roboto-Regular.ttf')
+}
+@font-face {
+  font-family: 'FluxRegular';
+  src: url('../fonts/FluxischElse-Regular.otf')
+}
+@font-face {
+  font-family: 'FluxLight';
+  src: url('../fonts/FluxischElse-Light.otf')
 }
 @font-face {
   font-family: 'ArialRB.ttf';
   src: url('../fonts/ArialRoundedBold.ttf');
+}
+@font-face {
+  font-family: 'ArialRegular';
+  src: url('../fonts/unicode.arialr.ttf');
+}
+@font-face {
+  font-family: 'Helvetica';
+  src: url('../fonts/Helvetica.ttc');
+}
+@font-face {
+  font-family: 'AlteBold';
+  src: url('../fonts/AlteHaasGroteskBold.ttf');
+}
+@font-face {
+    font-family: 'Alte';
+    src: url('../fonts/AlteHaasGroteskRegular.ttf');
+  }
+@font-face {
+  font-family: 'robotomonolight';
+  src: url('../fonts/RobotoMono-Light.ttf');
+}
+@font-face {
+  font-family: 'robotomono';
+  src: url('../fonts/RobotoMono-Regular.ttf');
+}
+@font-face {
+  font-family: 'Mint';
+  src: url('../fonts/MintGroteskTrialV0.3-Thin.otf');
+}
+@font-face {
+  font-family: 'RobotoLight';
+  src: url('../fonts/Roboto-Light.ttf');
+}
+@font-face {
+  font-family: 'ISO';
+  src: url('../fonts/ISOv0.6Trial-Regular.otf');
+}
