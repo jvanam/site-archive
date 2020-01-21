@@ -67,6 +67,8 @@
     width: 90%;
     height:auto;
     margin: auto;
+    margin-bottom: 0px;
+    margin-top: 0px;
   }
                             /*  DESIGN  */
   #dsn-content {
