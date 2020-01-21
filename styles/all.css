@@ -80,7 +80,7 @@
     padding-top: 5px;
   }
   .subpage-content-box-left {
-    width: 85%;
+    width: 90%;
     border-style: solid;
     border-radius: 10px;
     border-width: 1px;
@@ -90,7 +90,7 @@
     margin-bottom: 25px;
   }
   .subpage-content-box-right {
-    width: 85%;
+    width: 90%;
     border-style: solid;
     border-radius: 10px;
     border-width: 1px;
@@ -108,8 +108,9 @@
   #lodge-nav {
     height:180px;
     width: 180px;
-    margin-left: 33%;
-    margin-top: 10px;
+    display: block;
+    margin: auto;
+    padding-top: 7px;
   }
                             /*  ESSAYS  */
   .essays-text-subheader {
