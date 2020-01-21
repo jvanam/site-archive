@@ -40,7 +40,7 @@
     background-color: #e3e3e3;
   }
   .subpage-text-header {
-    font-size: 12pt;
+    font-size: 11pt;
     font-family: 'Roboto';
     margin-bottom:0px;
     margin-top:0px;
@@ -64,14 +64,9 @@
     margin-top: 10px;
   }
   .ceramic-thumb {
-    height:100px;
-    width: 150px;
-    box-sizing: border-box;
-  }
-  .ceramic-thumb:hover {
-    border-style: solid;
-    border-width: thin;
-    border-color: white;
+    width: 90%;
+    height:auto;
+    margin: auto;
   }
                             /*  DESIGN  */
   #dsn-content {
@@ -101,7 +96,7 @@
   }
   #lodge-div {
     width: 100%;
-    height: 200px;;
+    height: 210px;;
     background-image: url("../media/prototypes/lodgebg.png");
     background-size:100% 100%;
   }
@@ -110,7 +105,7 @@
     width: 180px;
     display: block;
     margin: auto;
-    padding-top: 7px;
+    padding-top: 17px;
   }
                             /*  ESSAYS  */
   .essays-text-subheader {
