@@ -203,7 +203,7 @@
    color: #c9bdf3;
   }
   .home-svg {
-    height: 40px;
+    width: 40px;
     fill: transparent;
     margin-top: 5px;
     margin-left: 5px;
@@ -546,9 +546,10 @@
     color: #c9bdf3;
   }
   .home-svg {
-    height: 70px;
+    width: 87px;
+    height: 78px;;
     fill: transparent;
-    margin-top: 5px;
+    margin-top: 0px;
     margin-left: 5px;
   }
   .home-path {
