@@ -78,6 +78,7 @@
   }
   .subpage-content-box-left {
     width: 90%;
+    height: auto;
     border-style: solid;
     border-radius: 10px;
     border-width: 1px;
@@ -88,6 +89,7 @@
   }
   .subpage-content-box-right {
     width: 90%;
+    height: auto;
     border-style: solid;
     border-radius: 10px;
     border-width: 1px;
