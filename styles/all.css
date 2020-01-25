@@ -285,18 +285,18 @@
     top: 60vh;
     left: 14vw;
     fill:#e7856a;
-    height: 240px;
-    width: 200px;
+    height: 220px;
+    width: 190px;
   }
   #crmc-m-svg :hover {
     fill:#ffffff;
   }
   #x1-m-svg {
     top: 10vh;
-    left: 60vw;
+    left: 56vw;
     fill:#e7e496;
     height: 270px;
-    width: 270px;
+    width: 250px;
   }
   #x1-m-svg :hover {
     fill:#ffffff;
@@ -313,9 +313,9 @@
   }
   #abt-m-svg {
     fill:#c9bdf3;
-    top: 37vh;
+    top: 42vh;
     left: 60vw;
-    height: 350px;
+    height: 300px;
     width: 170px;
   }
   #abt-m-svg :hover {
