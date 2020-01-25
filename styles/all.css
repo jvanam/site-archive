@@ -10,6 +10,14 @@
     text-decoration: none;
     color: inherit;
   }
+  p {
+    margin: none;
+    padding: none;
+  }
+  ol {
+    margin: none;
+    padding: none;
+  }
   svg {
     pointer-events:fill;
   }
@@ -23,11 +31,11 @@
   }
   .name-head {
     font-family: 'Meadow';
-    font-size: 40px;
+    font-size: 20px;
     text-align: center;
     padding: auto;
     color: black;
-    margin-top: 30px;
+    margin-top: 20px;
   }
   .name-head a:hover{
     color:blue;
@@ -229,7 +237,7 @@
                             /*  INDEX LINKS  */
   .nav-links {
     font-family: 'Meadow';
-    font-size: 17pt;
+    font-size: 15pt;
     position: absolute;
     text-decoration: none;
     color: black;
@@ -238,91 +246,90 @@
   .nav-links:hover{
     color: blue;
   }
-  #aboutlink {
-    position: absolute;
-    height: 100px;
-    width: 150px;
-    background-color: black;
-    top: 50vh;
-    left: 70vw;
-  }
   #designlink {
-    top: 25vh;
-    left: 18vw;
+    top: 17%;
+    left: 18%;
   }
   #essayslink {
-    top: 40vh;
-    left: 60vw;
+    top: 55%;
+    left: 10%;
   }
   #artlink {
-    top: 65vh;
-    left: 40vw;
+    top: 75%;
+    left: 15%;
+  }
+  #aboutlink {
+    top: 65%;
+    left: 70%;
   }
                             /*  INDEX SVGS  */
   .nav-svg {
-    z-index: 0;
-    position: absolute;
+    display: none;
   }
-  #pcsvg{
+  .m-svg {
+    position: absolute;
+    z-index: 0;
+  }
+  #dsn-m-svg{
     top: 10vh;
-    left: 10vw;
+    left: 7vw;
+    fill: #7c9df1;
+    height: 300px;
+    width: 300px;
+
+  }
+  #dsn-m-svg :hover {
+    fill:#ffffff;
+  }
+  #crmc-m-svg {
+    top: 60vh;
+    left: 14vw;
+    fill:#e7856a;
+    height: 270px;
+    width: 240px;
+  }
+  #crmc-m-svg :hover {
+    fill:#ffffff;
+  }
+  #es-m-svg {
+    top: 10vh;
+    left: 55vw;
+    fill:#e7e496;
+    height: 270px;
+    width: 270px;
+  }
+  #es-m-svg :hover {
+    fill:#ffffff;
+  }
+  #x1-m-svg {
+    top: 50vh;
+    left: 7vw;
+    fill:#5fc8b4;
     height: 200px;
     width: 200px;
-    fill: #7c9df1;
   }
-  #pcsvg :hover {
-    fill:#ffffff;
+  #x1-m-svg :hover {
+    fill: none;
   }
-  #artsvg {
-    top: 60vh;
-    left: 30vw;
-    height: 305px;
-    width: 300px;
-    z-index: 1;
-    fill:#e7856a;
-  }
-  #artsvg :hover {
-    fill:#ffffff;
-  }
-  #aboutsvg {
-    top: 20vh;
-    left: 65vw;
-    height: 560px;
-    width: 330px;
+  #abt-m-svg {
     fill:#c9bdf3;
+    top: 37vh;
+    left: 60vw;
+    height: 400px;
+    width: 200px;
   }
-  #aboutsvg :hover {
+  #abt-m-svg :hover {
     fill:#ffffff;
   }
-  #extrasvgone {
-    top: 13vh;
-    left: 35vw;
-    height: 620px;
-    width: 680px;
-    fill:#e7e496;
-  }
-  #extrasvgone :hover {
-    fill: none;
-  }
-  #extrasvgtwo {
-    top: 45vh;
-    left: 10vw;
-    height: 370px;
-    width: 300px;
+  #x2-m-svg {
     fill:#b4e08b;
+    height: 200px;
+    width: 200px;
+    top: 37vh;
+    left: 33vw;
   }
-  #extrasvgtwo :hover {
+  #x2-m-svg :hover {
     fill: none;
-  }
-  #essayssvg {
-    top: 35vh;
-    left: 50vw;
-    height: 330px;
-    width: 240px;
-    fill:#5fc8b4;
-  }
-  #essayssvg :hover {
-    fill:#ffffff;
   }
 }
 
@@ -595,6 +602,9 @@
     left: 40vw;
   }
                         /* INDEX SVGS */
+  .m-svg {
+  display: none;
+  }
   .nav-svg {
   z-index: 0;
   position: absolute;
