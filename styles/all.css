@@ -271,11 +271,11 @@
     z-index: 0;
   }
   #dsn-m-svg{
-    top: 10vh;
-    left: 7vw;
+    top: 7%;
+    left: 5%;
     fill: #7c9df1;
-    height: 300px;
-    width: 300px;
+    height: 250px;
+    width: 250px;
 
   }
   #dsn-m-svg :hover {
@@ -285,46 +285,46 @@
     top: 60vh;
     left: 14vw;
     fill:#e7856a;
-    height: 270px;
-    width: 240px;
+    height: 240px;
+    width: 200px;
   }
   #crmc-m-svg :hover {
     fill:#ffffff;
   }
-  #es-m-svg {
+  #x1-m-svg {
     top: 10vh;
     left: 55vw;
     fill:#e7e496;
     height: 270px;
     width: 270px;
   }
-  #es-m-svg :hover {
+  #x1-m-svg :hover {
     fill:#ffffff;
   }
-  #x1-m-svg {
-    top: 50vh;
+  #es-m-svg {
+    top: 40vh;
     left: 7vw;
     fill:#5fc8b4;
     height: 200px;
     width: 200px;
   }
-  #x1-m-svg :hover {
+  #es-m-svg :hover {
     fill: none;
   }
   #abt-m-svg {
     fill:#c9bdf3;
     top: 37vh;
     left: 60vw;
-    height: 400px;
-    width: 200px;
+    height: 350px;
+    width: 170px;
   }
   #abt-m-svg :hover {
     fill:#ffffff;
   }
   #x2-m-svg {
     fill:#b4e08b;
-    height: 200px;
-    width: 200px;
+    height: 150px;
+    width: 150px;
     top: 37vh;
     left: 33vw;
   }
