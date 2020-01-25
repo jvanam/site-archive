@@ -47,6 +47,28 @@
   .subpage-body {
     background-color: #e3e3e3;
   }
+  .subpage-content-box-left {
+    width: 90%;
+    height: auto;
+    border-style: solid;
+    border-radius: 10px;
+    border-width: 1px;
+    border-color: black;
+    padding: 15px;
+    margin: auto;
+    margin-bottom: 25px;
+  }
+  .subpage-content-box-right {
+    width: 90%;
+    height: auto;
+    border-style: solid;
+    border-radius: 10px;
+    border-width: 1px;
+    border-color: black;
+    padding: 15px;
+    margin: auto;
+    margin-bottom: 25px;
+  }
   .subpage-text-header {
     font-size: 11pt;
     font-family: 'Roboto';
@@ -84,28 +106,6 @@
     flex-wrap: wrap;
     padding-top: 5px;
   }
-  .subpage-content-box-left {
-    width: 90%;
-    height: auto;
-    border-style: solid;
-    border-radius: 10px;
-    border-width: 1px;
-    border-color: black;
-    padding: 15px;
-    margin: auto;
-    margin-bottom: 25px;
-  }
-  .subpage-content-box-right {
-    width: 90%;
-    height: auto;
-    border-style: solid;
-    border-radius: 10px;
-    border-width: 1px;
-    border-color: black;
-    padding: 15px;
-    margin: auto;
-    margin-bottom: 25px;
-  }
   #lodge-div {
     width: 100%;
     height: 210px;;
@@ -119,7 +119,40 @@
     margin: auto;
     padding-top: 17px;
   }
-                            /*  ESSAYS  */
+                            /*  ABOUT  */
+  .bio {
+    width: 80%;
+    font-size: 11pt;
+    font-family: 'RobotoLight';
+    line-height: 1.5;
+    margin: auto;
+    margin-top: 10px;
+  }
+  #bio2 {
+    margin-left: 10%;
+    font-size: 11pt;
+    font-family: 'RobotoLight';
+    line-height: 1.5;
+    width: 100px;
+  }
+  #biopic {
+    width: 40%;
+    display: block;
+    margin: auto;
+    margin-top: 10px;
+    margin-bottom: 10px;
+  }
+  .biolink {
+    border-style: solid;
+    border-radius: 10px;
+    border-width: 1px;
+    border-color: black;
+    padding: 7px;
+    font-size: 11pt;
+    margin-right: 5px;
+    font-family: 'RobotoLight';
+  }
+                          /*  ESSAYS  */
   .essays-text-subheader {
     font-size: 13pt;
     font-family: 'RobotoLight';
@@ -278,18 +311,12 @@
     width: 250px;
 
   }
-  #dsn-m-svg :hover {
-    fill:#ffffff;
-  }
   #crmc-m-svg {
     top: 60vh;
     left: 14vw;
     fill:#e7856a;
     height: 220px;
     width: 190px;
-  }
-  #crmc-m-svg :hover {
-    fill:#ffffff;
   }
   #x1-m-svg {
     top: 10vh;
@@ -298,18 +325,13 @@
     height: 270px;
     width: 250px;
   }
-  #x1-m-svg :hover {
-    fill:#ffffff;
-  }
   #es-m-svg {
     top: 40vh;
     left: 7vw;
     fill:#5fc8b4;
     height: 200px;
     width: 200px;
-  }
-  #es-m-svg :hover {
-    fill: none;
+    z-index: 10;
   }
   #abt-m-svg {
     fill:#c9bdf3;
@@ -318,18 +340,12 @@
     height: 300px;
     width: 170px;
   }
-  #abt-m-svg :hover {
-    fill:#ffffff;
-  }
   #x2-m-svg {
     fill:#b4e08b;
     height: 150px;
     width: 150px;
     top: 37vh;
     left: 33vw;
-  }
-  #x2-m-svg :hover {
-    fill: none;
   }
 }
 
@@ -403,6 +419,43 @@
     color:black;
     line-height: 1.2;
     margin-bottom:0px;
+  }
+                        /*  ABOUT  */
+  .bio {
+    width: 80%;
+    font-size: 13pt;
+    font-family: 'RobotoLight';
+    line-height: 1.5;
+    margin: auto;
+    margin-top: 10px;
+  }
+  #bio2 {
+    margin-left: 10%;
+    font-size: 13pt;
+    font-family: 'RobotoLight';
+    line-height: 1.5;
+    width: 100px;
+  }
+  #biopic {
+    width: 25%;
+    display: block;
+    margin: auto;
+    margin-top: 20px;
+    margin-bottom: 30px;
+  }
+  .biolink {
+    border-style: solid;
+    border-radius: 10px;
+    border-width: 1px;
+    border-color: black;
+    padding: 7px;
+    font-size: 13pt;
+    margin-right: 5px;
+    font-family: 'RobotoLight';
+  }
+  #abt-spc {
+    height: 20px;
+    width: 100%
   }
                               /* CERAMICS */
   #ceramic-photos {
