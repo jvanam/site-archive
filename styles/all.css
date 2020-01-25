@@ -271,7 +271,7 @@
     z-index: 0;
   }
   #dsn-m-svg{
-    top: 7%;
+    top: 10%;
     left: 5%;
     fill: #7c9df1;
     height: 250px;
@@ -293,7 +293,7 @@
   }
   #x1-m-svg {
     top: 10vh;
-    left: 55vw;
+    left: 60vw;
     fill:#e7e496;
     height: 270px;
     width: 270px;
