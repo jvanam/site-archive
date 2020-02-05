@@ -110,6 +110,11 @@
     text-decoration-style: solid;
     text-decoration: underline;
   }
+  .dsn-link:hover {
+    color: #7c9df1;
+    text-decoration: underline;
+    text-decoration-color: #7c9df1;
+  }
   #lodge-div {
     width: 100%;
     height: 210px;;
@@ -133,18 +138,53 @@
     margin-top: 10px;
   }
   #bio2 {
-    margin-left: 10%;
     font-size: 11pt;
     font-family: 'RobotoLight';
     line-height: 1.5;
     width: 100px;
   }
   #biopic {
-    width: 60%;
+    width: 250px;
     display: block;
     margin: auto;
     margin-top: 10px;
     margin-bottom: 10px;
+    z-index: 0;
+  }
+  #abt-photo {
+    position: relative;
+    margin-bottom: 60px;
+    margin-top: 40px;
+  }
+  .abt-pic-svg {
+    width: 370px;
+    height: 370px;
+    fill: none;
+    display: block;
+    position: absolute;
+    top: 0px;
+    right: 0px;
+    left: 0px;
+    bottom: 0px;
+    margin: auto;
+  }
+  #abt-pic-1 {
+    stroke: #c9bdf3;
+  }
+  #abt-pic-2 {
+    stroke: #7c9df1;
+  }
+  #abt-pic-3 {
+    stroke: #5fc8b4;
+  }
+  #abt-pic-4 {
+    stroke: #b4e08b;
+  }
+  #abt-pic-5 {
+    stroke: #e7e496;
+  }
+  #abt-pic-6 {
+    stroke: #e7856a;
   }
   .biolink {
     border-style: solid;
@@ -157,6 +197,9 @@
     font-family: 'RobotoLight';
     line-height: 200%;
     margin: auto;
+  }
+  #biolinks {
+    margin-left: 10%;
   }
                           /*  ESSAYS  */
   .essays-text-subheader {
@@ -302,7 +345,7 @@
     left: 70%;
   }
                             /*  INDEX SVGS  */
-  .nav-svg {
+  .d-svg {
     display: none;
   }
   .m-svg {
@@ -442,13 +485,6 @@
     line-height: 1.5;
     width: 100px;
   }
-  #biopic {
-    width: 25%;
-    display: block;
-    margin: auto;
-    margin-top: 20px;
-    margin-bottom: 30px;
-  }
   .biolink {
     border-style: solid;
     border-radius: 10px;
@@ -462,6 +498,47 @@
   #abt-spc {
     height: 20px;
     width: 100%
+  }
+  #biopic {
+    width: 250px;
+    display: block;
+    margin: auto;
+    margin-top: 20px;
+    margin-bottom: 30px;
+  }
+  #abt-photo {
+    position: relative;
+    margin-bottom: 70px;
+  }
+  .abt-pic-svg {
+    width: 479.65px;
+    height: 400px;
+    fill: none;
+    display: block;
+    position: absolute;
+    top: 0px;
+    right: 0px;
+    left: 0px;
+    bottom: 0px;
+    margin: auto;
+  }
+  #abt-pic-1 {
+    stroke: #c9bdf3;
+  }
+  #abt-pic-2 {
+    stroke: #7c9df1;
+  }
+  #abt-pic-3 {
+    stroke: #5fc8b4;
+  }
+  #abt-pic-4 {
+    stroke: #b4e08b;
+  }
+  #abt-pic-5 {
+    stroke: #e7e496;
+  }
+  #abt-pic-6 {
+    stroke: #e7856a;
   }
                               /* CERAMICS */
   #ceramic-photos {
@@ -501,6 +578,15 @@
     flex-wrap: wrap;
     padding-left: 120px;
     padding-top: 0px;
+  }
+  .dsn-link {
+    text-decoration-style: solid;
+    text-decoration: underline;
+  }
+  .dsn-link:hover {
+    color: #7c9df1;
+    text-decoration: underline;
+    text-decoration-color: #7c9df1;
   }
   .subpage-content-box-left {
     width: 700px;
@@ -668,21 +754,21 @@
   .m-svg {
   display: none;
   }
-  .nav-svg {
+  .d-svg {
   z-index: 0;
   position: absolute;
   }
-  #pcsvg{
+  #dsn-svg{
   top: 10vh;
   left: 10vw;
   height: 230px;
   width: 335px;
   fill: #7c9df1;
   }
-  #pcsvg :hover {
+  #dsn-svg :hover {
   fill:#ffffff;
   }
-  #artsvg {
+  #crmc-svg {
   top: 60vh;
   left: 30vw;
   height: 305px;
@@ -690,47 +776,47 @@
   z-index: 1;
   fill:#e7856a;
   }
-  #artsvg :hover {
+  #crmc-svg :hover {
   fill:#ffffff;
   }
-  #aboutsvg {
+  #abt-svg {
   top: 20vh;
   left: 65vw;
   height: 560px;
   width: 330px;
   fill:#c9bdf3;
   }
-  #aboutsvg :hover {
+  #abt-svg :hover {
   fill:#ffffff;
   }
-  #extrasvgone {
+  #x1-svg {
   top: 13vh;
   left: 35vw;
   height: 400px;
   width: 470px;
   fill:#e7e496;
   }
-  #extrasvgone :hover {
+  #x1-svg :hover {
   fill: none;
   }
-  #extrasvgtwo {
+  #x2-svg {
   top: 45vh;
   left: 10vw;
   height: 370px;
   width: 300px;
   fill:#b4e08b;
   }
-  #extrasvgtwo :hover {
+  #x2-svg :hover {
   fill: none;
   }
-  #essayssvg {
+  #es-svg {
   top: 35vh;
   left: 50vw;
   height: 330px;
   width: 240px;
   fill:#5fc8b4;
   }
-  #essayssvg :hover {
+  #es-svg :hover {
   fill:#ffffff;
   }
 }
