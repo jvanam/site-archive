@@ -375,7 +375,7 @@
   }
   #abt-svg {
   top: 50vh;
-  left: 64vw;
+  left: 60vw;
   height: 290px;
   width: 160px;
   fill:#c9bdf3;
@@ -384,20 +384,20 @@
   fill:#ffffff;
   }
   #es-svg {
-  top: 25vh;
+  top: 30vh;
   left: 50vw;
   height: 220px;
-  width: 165px;
+  width: 150px;
   fill:#5fc8b4;
   }
   #es-svg :hover {
   fill:#ffffff;
   }
   #x1-svg {
-  top: 17vh;
-  left: 30vw;
-  height: 240px;
-  width: 280px;
+  top: 20vh;
+  left: 25vw;
+  height: 220px;
+  width: 260px;
   fill:#e7e496;
   }
   #x1-svg :hover {
@@ -406,8 +406,8 @@
   #x2-svg {
   top: 60vh;
   left: 10vw;
-  height: 240px;
-  width: 180px;
+  height: 220px;
+  width: 160px;
   fill:#b4e08b;
   }
   #x2-svg :hover {
