@@ -363,7 +363,7 @@
   fill:#ffffff;
   }
   #crmc-svg {
-  top: 39vh;
+  top: 35vh;
   left: 7vw;
   height: 152px;
   width: 150px;
@@ -374,7 +374,7 @@
   fill:#ffffff;
   }
   #abt-svg {
-  top: 50vh;
+  top: 40vh;
   left: 60vw;
   height: 290px;
   width: 160px;
@@ -384,7 +384,7 @@
   fill:#ffffff;
   }
   #es-svg {
-  top: 30vh;
+  top: 25vh;
   left: 50vw;
   height: 220px;
   width: 150px;
@@ -394,7 +394,7 @@
   fill:#ffffff;
   }
   #x1-svg {
-  top: 20vh;
+  top: 15vh;
   left: 25vw;
   height: 220px;
   width: 260px;
@@ -404,7 +404,7 @@
   fill: none;
   }
   #x2-svg {
-  top: 60vh;
+  top: 55vh;
   left: 10vw;
   height: 220px;
   width: 160px;
