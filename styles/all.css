@@ -354,7 +354,7 @@
   }
   #dsn-svg{
   top: 10vh;
-  left: 10vw;
+  left: 5vw;
   height: 115px;
   width: 168px;
   fill: #7c9df1;
@@ -363,8 +363,8 @@
   fill:#ffffff;
   }
   #crmc-svg {
-  top: 37vh;
-  left: 10vw;
+  top: 39vh;
+  left: 7vw;
   height: 152px;
   width: 150px;
   z-index: 1;
@@ -384,8 +384,8 @@
   fill:#ffffff;
   }
   #x1-svg {
-  top: 15vh;
-  left: 35vw;
+  top: 17vh;
+  left: 30vw;
   height: 240px;
   width: 280px;
   fill:#e7e496;
@@ -405,9 +405,9 @@
   }
   #es-svg {
   top: 63vh;
-  left: 60vw;
+  left: 64vw;
   height: 220px;
-  width: 160px;
+  width: 165px;
   fill:#5fc8b4;
   }
   #es-svg :hover {
