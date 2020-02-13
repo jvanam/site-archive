@@ -319,7 +319,7 @@
                             /*  INDEX LINKS  */
   .nav-links {
     font-family: 'Meadow';
-    font-size: 15pt;
+    font-size: 13pt;
     position: absolute;
     text-decoration: none;
     color: black;
@@ -341,7 +341,7 @@
     left: 15%;
   }
   #aboutlink {
-    top: 80%;
+    top: 75%;
     left: 70%;
   }
                             /*  INDEX SVGS  */
